@@ -13,15 +13,10 @@ const props = defineProps({
   }
 })
 
-const weather = ref(null)
-
-onMounted(async () => {
-  const apiKey = '7b016e15137d09caa1790c69a01f979a'
-  const response = await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&units=metric&appid=${apiKey}`
-  )
-  weather.value = await response.json()
-})
+const apiKey = '7b016e15137d09caa1790c69a01f979a'
+const weather  = await $fetch(
+  `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&units=metric&appid=${apiKey}`
+)
 </script>
 
 <style scoped>

@@ -15,10 +15,12 @@ Vue components can be used directly within your Markdown content. This allows yo
 
 Here’s an example of a simple **WeatherComponent** that fetches weather data using the [OpenWeather API](https://openweathermap.org/).
 
-First, create a new component:
+<br/>
+
+**First, create a new component:**
 
 ```vue
-<!-- components/WeatherComponent.vue -->
+<!-- components/content/WeatherComponent.vue -->
 <template>
   <div class="weather">
     <p v-if="weather">The weather in {{ city }} is {{ weather.main.temp }}°C.</p>
@@ -36,15 +38,10 @@ const props = defineProps({
   }
 })
 
-const weather = ref(null)
-
-onMounted(async () => {
-  const apiKey = 'your-api-key-here'
-  const response = await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&units=metric&appid=${apiKey}`
-  )
-  weather.value = await response.json()
-})
+const apiKey = 'your-api-key-here'
+const weather  = await $fetch(
+  `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&units=metric&appid=${apiKey}`
+)
 </script>
 
 <style scoped>
@@ -55,15 +52,6 @@ onMounted(async () => {
 </style>
 ```
 
-## Displaying Weather Data in Markdown
-
-Here is the current weather in **Belgrade**:
-
-<WeatherComponent city="Belgrade" />
-
-
----
-
 ### Explanation:
 
 - **Dynamic Components**: We included two Vue components: one for fetching weather data and another for integrating NASA's Astronomy Picture of the Day (APOD) API.
@@ -72,3 +60,9 @@ Here is the current weather in **Belgrade**:
 - **Code Highlighting**: Showed how to format code snippets with syntax highlighting in Markdown.
 
 This example can help you structure more advanced blog posts using Nuxt 3 and `@nuxt/content`. Let me know if you need more clarification or assistance!
+
+## Displaying Weather Data in Markdown
+
+Here is the current weather in **Belgrade**:
+
+<WeatherComponent city="Belgrade" />

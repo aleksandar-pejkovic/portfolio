@@ -13,6 +13,7 @@ export default defineNuxtConfig({
         'java',
         'css',
         'html',
+        'bash',
         // Add more languages here if needed
       ],
     },
