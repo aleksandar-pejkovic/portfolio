@@ -1,12 +1,20 @@
 {
-    "home": "Početna",
-    "blog": "Blog",
-    "projects": "Projekti",
-    "welcome": "Dobrodošli na moj sajt",
-    "about": "O meni",
-    "contact": "Kontakt",
-    "weather-msg1": "Vreme u mestu:",
-    "weather-msg2": "je",
-    "weather-loading-msg": "Učitavaju se vremenski podaci za"
-  }
-  
+  "home": "Početna",
+  "blog": "Blog",
+  "projects": "Projekti",
+  "welcome": "Dobrodošli na moj sajt",
+  "about": "O meni",
+  "contact": "Kontakt",
+  "weather-msg1": "Vreme u mestu:",
+  "weather-msg2": "je",
+  "weather-loading-msg": "Učitavaju se vremenski podaci za",
+  "heroSubtitle": "Web developer",
+  "learnMore": "Saznaj više",
+  "myProjects": "Moji Projekti",
+  "budgetPlusDesc": "Aplikacija za računovodstvo dizajnirana da pojednostavi svakodnevne zadatke.",
+  "reliaBillDesc": "Aplikacija za fakturisanje za male firme i agencije.",
+  "technologies": "Tehnologije koje koristim",
+  "workTogether": "Sarađujmo",
+  "workTogetherDescription": "Uvek sam otvoren za nove projekte i mogućnosti saradnje. Slobodno me kontaktirajte da razgovaramo o tome kako možemo raditi zajedno.",
+  "contactMe": "Kontaktiraj me"
+}

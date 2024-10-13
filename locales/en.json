@@ -7,5 +7,14 @@
     "contact": "Contact",
     "weather-msg1": "The weather in",
     "weather-msg2": "is",
-    "weather-loading-msg": "Loading weather data for"
+    "weather-loading-msg": "Loading weather data for",
+    "heroSubtitle": "Web Developer",
+    "learnMore": "Learn More",
+    "myProjects": "My Projects",
+    "budgetPlusDesc": "An accounting application designed to simplify everyday tasks.",
+    "reliaBillDesc": "An invoicing application for small businesses and agencies.",
+    "technologies": "Technologies I Use",
+    "workTogether": "Let's Work Together",
+    "workTogetherDescription": "I'm always open to new projects and collaboration opportunities. Feel free to reach out to discuss how we can work together.",
+    "contactMe": "Contact Me"
 }

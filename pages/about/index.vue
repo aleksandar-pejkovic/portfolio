@@ -1,13 +1,9 @@
 <template>
-  <div>
-    
-  </div>
+  <ContentDoc />
 </template>
 
 <script lang="ts" setup>
 
 </script>
 
-<style>
-
-</style>
+<style></style>

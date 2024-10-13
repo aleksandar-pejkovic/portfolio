@@ -18,8 +18,23 @@
       <slot />
     </main>
     <footer>
-      <!-- Footer content -->
-      <p>&copy; 2024 Aleksandar Pejković</p>
+      <div class="footer-content">
+        <p>&copy; 2024 Aleksandar Pejković. All rights reserved.</p>
+
+        <ul class="social-links">
+          <li>
+            <a href="https://github.com/aleksandar-pejkovic" target="_blank" rel="noopener">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/aleksandar-pejkovic/" target="_blank" rel="noopener">LinkedIn</a>
+          </li>
+          <li>
+            <a href="mailto:aleksandarpejkovic@hotmail.com">Email</a>
+          </li>
+        </ul>
+
+        <p>Built with ❤️ using Nuxt 3</p>
+      </div>
     </footer>
   </div>
 </template>
@@ -57,10 +72,13 @@ nav a {
 }
 
 /* Hover and focus effects for navigation links */
-nav a:hover,
-nav a:focus {
-  background-color: #444;
+nav a:hover {
   border-radius: 5px;
+  scale: 1.1;
+  color: whitesmoke;
+  /* Promena nijanse slova */
+  transition: font-size 0.5s ease, color 0.5s ease;
+  /* Dodata tranzicija za glatko povećanje */
 }
 
 /* Main content styling */
@@ -72,18 +90,48 @@ main {
   /* Ensure the main content takes up sufficient space */
 }
 
-/* Footer styling */
+/* Footer content styling */
 footer {
   background-color: #1e1e2f;
   color: white;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
   margin-top: auto;
 }
 
-footer p {
-  margin: 0;
+.footer-content p {
+  margin: 0.5rem 0;
   font-size: 1rem;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-links li {
+  display: inline;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #4CAF50;
+  /* Hover color */
+}
+
+.footer-content p:last-child {
+  font-size: 0.9rem;
+  color: #999;
 }
 
 /* Responsive design */
