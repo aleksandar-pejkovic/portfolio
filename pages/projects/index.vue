@@ -10,8 +10,9 @@
 </template>
 
 <script setup>
+const { locale } = useI18n()
 
 const { data: projects } = await useAsyncData('content:projects', () =>
-  queryContent('projects').only(['_path', 'title']).find()
+  queryContent(`${locale.value}/projects`).only(['_path', 'title']).find()
 )
 </script>

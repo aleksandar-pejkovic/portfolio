@@ -1,0 +1,11 @@
+{
+    "home": "Home",
+    "blog": "Blog",
+    "projects": "Projects",
+    "welcome": "Welcome to my website",
+    "about": "About me",
+    "contact": "Contact",
+    "weather-msg1": "The weather in",
+    "weather-msg2": "is",
+    "weather-loading-msg": "Loading weather data for"
+}

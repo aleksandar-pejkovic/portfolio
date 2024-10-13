@@ -2,11 +2,16 @@
   <div>
     <header>
       <nav>
-        <nuxt-link to="/">Home</nuxt-link>
-        <nuxt-link to="/blog">Blog</nuxt-link>
-        <nuxt-link to="/projects">Projects</nuxt-link>
-        <nuxt-link to="/about">About</nuxt-link>
-        <nuxt-link to="/contact">Contact</nuxt-link>
+        <NuxtLink :to="localePath('/')">{{ $t('home') }}</NuxtLink>
+        <NuxtLink :to="localePath('/blog')">{{ $t('blog') }}</NuxtLink>
+        <NuxtLink :to="localePath('/projects')">{{ $t('projects') }}</NuxtLink>
+        <NuxtLink :to="localePath('/about')">{{ $t('about') }}</NuxtLink>
+        <NuxtLink :to="localePath('/contact')">{{ $t('contact') }}</NuxtLink>
+
+        <!-- Switch locale button -->
+        <NuxtLink v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">
+          {{ locale.name }}
+        </NuxtLink>
       </nav>
     </header>
     <main>
@@ -18,6 +23,15 @@
     </footer>
   </div>
 </template>
+
+<script setup>
+const { locale, locales } = useI18n()
+const switchLocalePath = useSwitchLocalePath()
+
+const availableLocales = computed(() => {
+  return locales.value.filter(i => i.code !== locale.value)
+})
+</script>
 
 <style scoped>
 /* Header styling */

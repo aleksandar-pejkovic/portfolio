@@ -1,7 +1,7 @@
 <template>
   <div class="weather">
-    <p v-if="weather">The weather in {{ city }} is {{ weather.main.temp }}°C.</p>
-    <p v-else>Loading weather data for {{ city }}...</p>
+    <p v-if="weather">{{ $t('weather-msg1') }} {{ city }} {{ $t('weather-msg2') }} {{ weather.main.temp }}°C.</p>
+    <p v-else>{{ $t('weather-loading-msg') }} {{ city }}...</p>
   </div>
 </template>
 

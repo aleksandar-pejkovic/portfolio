@@ -18,7 +18,30 @@ export default defineNuxtConfig({
       ],
     },
   },
+  i18n: {
+    // Lista podržanih jezika
+    locales: [
+      { code: 'sr', name: 'Srpski', iso: 'sr-RS', file: 'sr.json' },
+      { code: 'en', name: 'English', iso: 'en-US', file: 'en.json' }
+    ],
+    // Default jezik sajta
+    defaultLocale: 'sr',
+
+    // Direktorijum sa prevodima
+    langDir: 'locales/',
+
+    // Strategija rutiranja
+    strategy: 'prefix', // Dodaje jezički prefiks u URL, npr. /en/about ili /sr/about
+
+    // Automatski prebacivanje jezika bazirano na pretraživaču korisnika
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      alwaysRedirect: true,
+      fallbackLocale: 'sr',
+    }
+  },
   css: ['~/assets/css/main.scss'],
   devtools: { enabled: true },
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxtjs/i18n'],
 })
