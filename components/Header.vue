@@ -15,7 +15,6 @@
         <NuxtLink :to="localePath('/projects')" :class="{ 'active-link': $route.path.startsWith(`/${locale}/projects`) }" @click="toggleMenu">{{ $t('projects') }}</NuxtLink>
         <NuxtLink :to="localePath('/about')" :class="{ 'active-link': $route.path === `/${locale}/about` }" @click="toggleMenu">{{ $t('about') }}</NuxtLink>
         <NuxtLink :to="localePath('/contact')" :class="{ 'active-link': $route.path === `/${locale}/contact` }" @click="toggleMenu">{{ $t('contact') }}</NuxtLink>
-
         <!-- Switch locale button -->
         <NuxtLink v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">
           {{ locale.name }}
@@ -42,7 +41,7 @@ const toggleMenu = () => (menuOpen.value = !menuOpen.value);
 <style scoped>
 /* Header styling */
 header {
-  border-bottom: 2px solid #d1d5db;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 999;
@@ -69,7 +68,7 @@ nav a {
 
 /* Hover and focus effects for navigation links */
 nav a:hover {
-  border-bottom: 2px solid maroon;
+  border-bottom: 2px solid var(--accent-color);;
   transition: border-bottom 0.5s ease;
 }
 
@@ -82,7 +81,7 @@ nav a:hover {
 
 /* Active link styling */
 .active-link {
-  border-bottom: 2px solid maroon !important;
+  border-bottom: 2px solid var(--accent-color) !important;
 }
 
 /* Hamburger styling */
@@ -90,6 +89,7 @@ nav a:hover {
   display: none;
   flex-direction: column;
   gap: 5px;
+  padding: 0.2rem;
   cursor: pointer;
   background: none;
   border: none;

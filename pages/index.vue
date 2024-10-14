@@ -3,9 +3,9 @@
     <!-- Hero section -->
     <section class="hero-section">
       <div class="hero-text">
-        <h1 class="wow-title">Aleksandar Pejković</h1>
+        <h1 class="wow-title">{{ $t('welcome1') }} <br/> <span class="accent-text">{{ $t('welcome2') }}</span> - {{ $t('welcome3') }} <span class="accent-text">{{ $t('welcome4') }}</span> {{ $t('welcome5') }}</h1>
         <p class="wow-subtitle">{{ $t('heroSubtitle') }}</p>
-        <NuxtLink :to="localePath('/about')" class="cta-button">{{ $t('learnMore') }}</NuxtLink>
+        <NuxtLink :to="localePath('/about')" class="learn-more-button">{{ $t('learnMore') }}</NuxtLink>
       </div>
     </section>
 
@@ -61,7 +61,7 @@
     <section class="cta-section">
       <h2>{{ $t('workTogether') }}</h2>
       <p>{{ $t('workTogetherDescription') }}</p>
-      <NuxtLink :to="localePath('/contact')" class="cta-button-large">{{ $t('contactMe') }}</NuxtLink>
+      <NuxtLink :to="localePath('/contact')" class="lets-conect-button">{{ $t('contactMe') }}</NuxtLink>
     </section>
   </div>
 </template>
@@ -70,24 +70,41 @@
 </script>
 
 <style scoped>
-/* Wow Content Styling */
+/* The animation code */
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 
 /* Hero Section */
 .hero-section {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.hero-text {
-  text-align: center;
-  z-index: 1;
-}
-
 .wow-title {
   font-size: 4rem;
   font-weight: bold;
+  line-height: normal;
   animation: fadeInDown 1s ease-out;
 }
 
@@ -97,19 +114,23 @@
   animation: fadeInUp 1.5s ease-out;
 }
 
-.cta-button {
+.accent-text {
+  color: var(--accent-color);
+}
+
+.learn-more-button {
   margin-top: 2rem;
   padding: 0.75rem 2rem;
-  background-color: white;
-  color: #3498db;
+  background-color: var(--accent-color);;
+  color: var(--primary-color);
   font-weight: bold;
   border-radius: 30px;
   text-decoration: none;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.cta-button:hover {
-  background-color: #9b59b6;
+.learn-more-button:hover {
+  background-color: rgb(231, 53, 53);
   transform: scale(1.1);
 }
 
@@ -194,11 +215,10 @@
   font-size: 1rem;
 }
 
-/* CTA Section */
+/* Let's Connect Section */
 .cta-section {
   padding: 4rem 0;
-  background-color: #3498db;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -207,11 +227,11 @@
   margin-bottom: 1rem;
 }
 
-.cta-button-large {
+.lets-conect-button {
   margin-top: 2rem;
   padding: 1rem 2.5rem;
-  background-color: white;
-  color: #3498db;
+  background-color: var(--accent-color);;
+  color: var(--primary-color);
   border-radius: 30px;
   text-decoration: none;
   font-size: 1.2rem;
@@ -219,9 +239,8 @@
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.cta-button-large:hover {
-  background-color: #9b59b6;
-  color: whitesmoke;
+.lets-conect-button:hover {
+  background-color: rgb(231, 53, 53);
   transform: scale(1.1);
 }
 </style>
