@@ -78,8 +78,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #3498db, #9b59b6);
-  color: white;
 }
 
 .hero-text {
