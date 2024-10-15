@@ -2,11 +2,7 @@
   <div class="wow-content">
     <!-- Hero section -->
     <section class="hero-section">
-      <div class="hero-text">
-        <h1 class="wow-title">{{ $t('welcome1') }} <br/> <span class="accent-text">{{ $t('welcome2') }}</span> - {{ $t('welcome3') }} <span class="accent-text">{{ $t('welcome4') }}</span> {{ $t('welcome5') }}</h1>
-        <p class="wow-subtitle">{{ $t('heroSubtitle') }}</p>
-        <NuxtLink :to="localePath('/about')" class="button">{{ $t('learnMore') }}</NuxtLink>
-      </div>
+      <Hero />
     </section>
 
     <!-- Projects showcase -->
@@ -70,64 +66,12 @@
 </script>
 
 <style scoped>
-/* The animation code */
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-
 /* Hero Section */
 .hero-section {
-  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.wow-title {
-  font-size: 4rem;
-  font-weight: bold;
-  line-height: normal;
-  animation: fadeInDown 1s ease-out;
-}
-
-.wow-subtitle {
-  font-size: 1.8rem;
-  margin: 2rem 0;
-  animation: fadeInUp 1.5s ease-out;
-}
-
-.accent-text {
-  color: var(--accent-color);
-}
-
-@keyframes pulse {
-
-  0%,
-  100% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.05);
-  }
+  padding: 3rem 0;
 }
 
 /* Projects Section */
@@ -210,5 +154,4 @@
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
-
 </style>

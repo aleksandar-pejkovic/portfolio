@@ -2,19 +2,21 @@
   <header>
     <nav>
       <!-- Hamburger button -->
-      <button class="hamburger" @click="toggleMenu">
-        <span :class="{ 'open': menuOpen }"></span>
-        <span :class="{ 'open': menuOpen }"></span>
-        <span :class="{ 'open': menuOpen }"></span>
-      </button>
+      <HeaderHamburger @toggle="toggleMenu" :menuOpen="menuOpen" />
 
       <!-- Navigation links -->
       <div :class="{ 'menu-open': menuOpen }" class="nav-links">
-        <NuxtLink :to="localePath('/')" :class="{ 'active-link': $route.path === `/${locale}` }" @click="toggleMenu">Aleksandar Pejković</NuxtLink>
-        <NuxtLink :to="localePath('/blog')" :class="{ 'active-link': $route.path.startsWith(`/${locale}/blog`) }" @click="toggleMenu">{{ $t('blog') }}</NuxtLink>
-        <NuxtLink :to="localePath('/projects')" :class="{ 'active-link': $route.path.startsWith(`/${locale}/projects`) }" @click="toggleMenu">{{ $t('projects') }}</NuxtLink>
-        <NuxtLink :to="localePath('/about')" :class="{ 'active-link': $route.path === `/${locale}/about` }" @click="toggleMenu">{{ $t('about') }}</NuxtLink>
-        <NuxtLink :to="localePath('/contact')" :class="{ 'active-link': $route.path === `/${locale}/contact` }" @click="toggleMenu">{{ $t('contact') }}</NuxtLink>
+        <NuxtLink :to="localePath('/')" :class="{ 'active-link': $route.path === `/${locale}` }" @click="toggleMenu">
+          Aleksandar Pejković</NuxtLink>
+        <NuxtLink :to="localePath('/blog')" :class="{ 'active-link': $route.path.startsWith(`/${locale}/blog`) }"
+          @click="toggleMenu">{{ $t('blog') }}</NuxtLink>
+        <NuxtLink :to="localePath('/projects')"
+          :class="{ 'active-link': $route.path.startsWith(`/${locale}/projects`) }" @click="toggleMenu">{{
+            $t('projects') }}</NuxtLink>
+        <NuxtLink :to="localePath('/about')" :class="{ 'active-link': $route.path === `/${locale}/about` }"
+          @click="toggleMenu">{{ $t('about') }}</NuxtLink>
+        <NuxtLink :to="localePath('/contact')" :class="{ 'active-link': $route.path === `/${locale}/contact` }"
+          @click="toggleMenu">{{ $t('contact') }}</NuxtLink>
         <!-- Switch locale button -->
         <NuxtLink v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">
           {{ locale.name }}
@@ -68,7 +70,8 @@ nav a {
 
 /* Hover and focus effects for navigation links */
 nav a:hover {
-  border-bottom: 2px solid var(--accent-color);;
+  border-bottom: 2px solid var(--accent-color);
+  ;
   transition: border-bottom 0.5s ease;
 }
 
@@ -84,42 +87,10 @@ nav a:hover {
   border-bottom: 2px solid var(--accent-color) !important;
 }
 
-/* Hamburger styling */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  padding: 0.2rem;
-  cursor: pointer;
-  background: none;
-  border: none;
-  z-index: 1000;
-}
-
-.hamburger span {
-  display: block;
-  width: 25px;
-  height: 3px;
-  background-color: #000;
-  transition: all 0.3s ease;
-}
-
-.hamburger span.open:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-
-.hamburger span.open:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger span.open:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
-}
-
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
-  .hamburger {
-    display: flex;
+  .header {
+    position: relative;
   }
 
   .nav-links {
