@@ -5,7 +5,7 @@
       <div class="hero-text">
         <h1 class="wow-title">{{ $t('welcome1') }} <br/> <span class="accent-text">{{ $t('welcome2') }}</span> - {{ $t('welcome3') }} <span class="accent-text">{{ $t('welcome4') }}</span> {{ $t('welcome5') }}</h1>
         <p class="wow-subtitle">{{ $t('heroSubtitle') }}</p>
-        <NuxtLink :to="localePath('/about')" class="learn-more-button">{{ $t('learnMore') }}</NuxtLink>
+        <NuxtLink :to="localePath('/about')" class="button">{{ $t('learnMore') }}</NuxtLink>
       </div>
     </section>
 
@@ -61,7 +61,7 @@
     <section class="cta-section">
       <h2>{{ $t('workTogether') }}</h2>
       <p>{{ $t('workTogetherDescription') }}</p>
-      <NuxtLink :to="localePath('/contact')" class="lets-conect-button">{{ $t('contactMe') }}</NuxtLink>
+      <NuxtLink :to="localePath('/contact')" class="button">{{ $t('contactMe') }}</NuxtLink>
     </section>
   </div>
 </template>
@@ -110,28 +110,12 @@
 
 .wow-subtitle {
   font-size: 1.8rem;
-  margin: 2rem;
+  margin: 2rem 0;
   animation: fadeInUp 1.5s ease-out;
 }
 
 .accent-text {
   color: var(--accent-color);
-}
-
-.learn-more-button {
-  margin-top: 2rem;
-  padding: 0.75rem 2rem;
-  background-color: var(--accent-color);;
-  color: var(--primary-color);
-  font-weight: bold;
-  border-radius: 30px;
-  text-decoration: none;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.learn-more-button:hover {
-  background-color: rgb(231, 53, 53);
-  transform: scale(1.1);
 }
 
 @keyframes pulse {
@@ -227,20 +211,4 @@
   margin-bottom: 1rem;
 }
 
-.lets-conect-button {
-  margin-top: 2rem;
-  padding: 1rem 2.5rem;
-  background-color: var(--accent-color);;
-  color: var(--primary-color);
-  border-radius: 30px;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.lets-conect-button:hover {
-  background-color: rgb(231, 53, 53);
-  transform: scale(1.1);
-}
 </style>
