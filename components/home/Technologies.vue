@@ -8,16 +8,25 @@
       <img src="/assets/icons/springboot.svg" alt="Spring Boot">
     </div>
     <div class="tech-icon">
-      <img src="/assets/icons/nuxt.svg" alt="Nuxt.js">
+      <img src="/assets/icons/js.svg" alt="JavaScript.js">
     </div>
     <div class="tech-icon">
       <img src="/assets/icons/vue.svg" alt="Vue.js">
+    </div>
+    <div class="tech-icon">
+      <img src="/assets/icons/nuxt.svg" alt="Nuxt.js">
+    </div>
+    <div class="tech-icon">
+      <img src="/assets/icons/angular.svg" alt="Angular.js">
     </div>
     <div class="tech-icon">
       <img src="/assets/icons/mysql.svg" alt="MySql">
     </div>
     <div class="tech-icon">
       <img src="/assets/icons/git.svg" alt="Git">
+    </div>
+    <div class="tech-icon">
+      <img src="/assets/icons/docker.svg" alt="Docker">
     </div>
   </div>
 </template>

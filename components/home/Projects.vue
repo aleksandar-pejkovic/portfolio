@@ -16,23 +16,24 @@ import projects from '~/assets/data/projects.json'
 <style scoped>
 .projects-grid {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
 }
 
 .project-card {
-  background-color: #f9f9f9;
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   text-align: left;
-  width: 300px;
+  width: 80%;
+  max-width: 1200px;
 }
 
 .project-image {
-  height: 200px;
+  height: 400px;
   background-position: center;
   background-size: cover;
   border-radius: 8px;
@@ -50,10 +51,6 @@ import projects from '~/assets/data/projects.json'
 
 /* @media query za mobilne uređaje */
 @media (max-width: 768px) {
-  .projects-grid {
-    flex-direction: column;
-    align-items: center;
-  }
 
   .project-card {
     width: 100%;
