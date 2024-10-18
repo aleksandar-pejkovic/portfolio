@@ -4,14 +4,12 @@
     --accent-color: #c93535;
 }
 
-/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and HTML styling */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -26,14 +24,13 @@ h6 {
     padding: 2rem 0;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
 p {
     font-size: 1.4rem;
     padding: 1rem 0;
+}
+
+ul {
+    padding-left: 20px;
 }
 
 li {
@@ -43,7 +40,6 @@ li {
 .button {
     padding: 0.75rem 2rem;
     background-color: var(--accent-color);
-    ;
     color: var(--primary-color);
     font-weight: bold;
     border-radius: 30px;
@@ -79,7 +75,7 @@ li {
     }
 
     p {
-        font-size: 1.0rem;
+        font-size: 1.2rem;
         padding: 0.5rem 0;
     }
 
