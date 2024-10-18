@@ -2,7 +2,7 @@
   <header>
     <nav>
       <!-- Hamburger button -->
-      <HeaderHamburger @toggle="toggleMenu" :menuOpen="menuOpen" />
+      <LayoutHamburger @toggle="toggleMenu" :menuOpen="menuOpen" />
 
       <!-- Navigation links -->
       <div :class="{ 'menu-open': menuOpen }" class="nav-links">
@@ -90,7 +90,7 @@ nav a:hover {
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
   .header {
-    position: relative;
+    position: top;
   }
 
   .nav-links {

@@ -1,20 +1,16 @@
 <template>
   <h2>{{ $t('myProjects') }}</h2>
   <div class="projects-grid">
-    <NuxtLink :to="localePath('/projects/budgetplus')" class="project-card">
-      <div class="project-image" style="background-image: url('/img/projects/budgetplus/landing-page.png');"></div>
-      <h3>BudgetPlus</h3>
-      <p>{{ $t('budgetPlusDesc') }}</p>
-    </NuxtLink>
-    <NuxtLink :to="localePath('/projects/reliabill')" class="project-card">
-      <div class="project-image" style="background-image: url('/img/projects/reliabill/landing-page.jpeg');"></div>
-      <h3>ReliaBill</h3>
-      <p>{{ $t('reliaBillDesc') }}</p>
+    <NuxtLink v-for="project in projects" :key="project.name" :to="localePath(project.path)" class="project-card">
+      <div class="project-image" :style="{ backgroundImage: `url(${project.image})` }"></div>
+      <h3>{{ project.name }}</h3>
+      <p>{{ $t(project.descriptionKey) }}</p>
     </NuxtLink>
   </div>
 </template>
 
 <script setup>
+import projects from '~/assets/data/projects.json'
 </script>
 
 <style scoped>

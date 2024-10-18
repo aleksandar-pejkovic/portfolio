@@ -20,5 +20,6 @@
     "technologies": "Technologies I Use",
     "workTogether": "Let's Work Together",
     "workTogetherDescription": "I'm always open to new projects and collaboration opportunities. Feel free to reach out to discuss how we can work together.",
-    "contactMe": "Contact Me"
+    "contactMe": "Contact Me",
+    "csvExporterDesc": "An application for exporting data from a database to CSV format."
 }
