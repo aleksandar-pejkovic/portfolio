@@ -43,5 +43,5 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/css/main.scss'],
   devtools: { enabled: true },
-  modules: ['@nuxt/content', '@nuxtjs/i18n'],
+  modules: ['@nuxt/content', '@nuxtjs/i18n', '@nuxt/image'],
 })

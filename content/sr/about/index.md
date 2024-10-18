@@ -5,7 +5,7 @@ description: "Saznajte više o Aleksandru Pejkoviću - računovođi i budućem w
 
 # O meni
 
-Zovem se Aleksandar Pejković i dolazim iz sela Obrež, opština Varvarin. Trenutno radim kao računovođa u osnovnoj školi, ali moj cilj je da se razvijem kao **web developer**. Završio sam srednju ekonomsku školu u Varvarinu, kao i **Ekonomski fakultet u Nišu**. Osim toga, završio sam **IT Akademiju** i više kurseva programiranja.
+Zovem se Aleksandar Pejković i trenutno radim kao računovođa u osnovnoj školi, ali moj cilj je da se razvijem kao **web developer**. Završio sam srednju ekonomsku školu u Varvarinu, kao i **Ekonomski fakultet u Nišu**. Osim toga, završio sam **IT Akademiju** i više kurseva programiranja.
 
 Kroz rad i praksu u firmama kao što su **Endava** i **Epam**, stekao sam dragoceno iskustvo koje mi je omogućilo da proširim svoje znanje o tehnologijama kao što su **Java**, **Spring Boot**, i **Nuxt.js**. Težim da postanem ekspert za backend programiranje, iako takođe radim na usavršavanju u frontend tehnologijama kao što su **Vue.js** i **Nuxt.js**.
 

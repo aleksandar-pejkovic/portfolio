@@ -20,5 +20,6 @@
   "technologies": "Tehnologije koje koristim",
   "workTogether": "Sarađujmo",
   "workTogetherDescription": "Uvek sam otvoren za nove projekte i mogućnosti saradnje. Slobodno me kontaktirajte da razgovaramo o tome kako možemo raditi zajedno.",
-  "contactMe": "Kontaktiraj me"
+  "contactMe": "Kontaktiraj me",
+  "csvExporterDesc": "Aplikacija za izvoz podataka iz baze u csv format."
 }
