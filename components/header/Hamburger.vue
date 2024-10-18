@@ -1,8 +1,6 @@
 <template>
   <button class="hamburger" @click="$emit('toggle')">
-    <span :class="{ 'open': menuOpen }"></span>
-    <span :class="{ 'open': menuOpen }"></span>
-    <span :class="{ 'open': menuOpen }"></span>
+    <span v-for="i in 3" :class="{ 'open': menuOpen }"></span>
   </button>
 </template>
 

@@ -60,3 +60,33 @@ li {
     border-radius: 1rem;
     /* Add rounded corners (similar to rounded-md in Tailwind) */
 }
+
+/* @media query za mobilne uređaje */
+@media (max-width: 768px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        padding: 1rem 0;
+    }
+
+    p {
+        font-size: 1.0rem;
+        padding: 0.5rem 0;
+    }
+
+    li {
+        font-size: 1.2rem;
+    }
+
+    .button {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .border-shadow {
+        padding: 1.5rem;
+    }
+}

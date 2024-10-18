@@ -7,19 +7,7 @@
 
     <!-- Projects showcase -->
     <section class="projects-section">
-      <h2>{{ $t('myProjects') }}</h2>
-      <div class="projects-grid">
-        <NuxtLink :to="localePath('/projects/budgetplus')" class="project-card">
-          <div class="project-image" style="background-image: url('/img/projects/budgetplus/landing-page.png');"></div>
-          <h3>BudgetPlus</h3>
-          <p>{{ $t('budgetPlusDesc') }}</p>
-        </NuxtLink>
-        <NuxtLink :to="localePath('/projects/reliabill')" class="project-card">
-          <div class="project-image" style="background-image: url('/img/projects/reliabill/landing-page.jpeg');"></div>
-          <h3>ReliaBill</h3>
-          <p>{{ $t('reliaBillDesc') }}</p>
-        </NuxtLink>
-      </div>
+      <Projects />
     </section>
 
     <!-- Technologies section -->
@@ -77,48 +65,12 @@
 /* Projects Section */
 .projects-section {
   padding: 5rem 0;
-  background-color: #fff;
   text-align: center;
-}
-
-.projects-grid {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.project-card {
-  background-color: #f9f9f9;
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  text-align: left;
-  width: 300px;
-}
-
-.project-image {
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-  border-radius: 8px;
-}
-
-.project-card h3 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-  color: #333;
-}
-
-.project-card:hover {
-  transform: translateY(-10px);
 }
 
 /* Technologies Section */
 .technologies-section {
   padding: 4rem 0;
-  background-color: #f0f0f0;
   text-align: center;
 }
 
@@ -153,5 +105,11 @@
 .cta-section h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 0;
+  }
 }
 </style>
