@@ -9,9 +9,9 @@ If you have any questions, suggestions, or would like to collaborate with me, fe
 
 ## Contact Information
 
-- **Email**: [aleksandarpejkovic@hotmail.com](mailto:aleksandarpejkovic@hotmail.com)
-- **LinkedIn**: [Aleksandar Pejković](https://www.linkedin.com/in/aleksandar-pejkovic)
-- **GitHub**: [Aleksandar Pejković](https://github.com/aleksandar-pejkovic)
+- **Email**: <a href="mailto:aleksandarpejkovic@hotmail.com" target="_blank">aleksandarpejkovic@hotmail.com</a>
+- **LinkedIn**: <a href="https://www.linkedin.com/in/aleksandar-pejkovic" target="_blank">Aleksandar Pejković</a>
+- **GitHub**: <a href="https://github.com/aleksandar-pejkovic" target="_blank">Aleksandar Pejković</a>
 
 ## Let's Work Together
 

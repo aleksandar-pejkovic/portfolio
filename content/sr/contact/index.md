@@ -9,9 +9,9 @@ Ukoliko imate pitanja, predloge ili želite da sarađujete sa mnom, slobodno me 
 
 ## Kontakt podaci
 
-- **Email**: [aleksandarpejkovic@hotmail.com](mailto:aleksandarpejkovic@hotmail.com)
-- **LinkedIn**: [Aleksandar Pejković](https://www.linkedin.com/in/aleksandar-pejkovic)
-- **GitHub**: [Aleksandar Pejković](https://github.com/aleksandar-pejkovic)
+- **Email**: <a href="mailto:aleksandarpejkovic@hotmail.com" target="_blank">aleksandarpejkovic@hotmail.com</a>
+- **LinkedIn**: <a href="https://www.linkedin.com/in/aleksandar-pejkovic" target="_blank">Aleksandar Pejković</a>
+- **GitHub**: <a href="https://github.com/aleksandar-pejkovic" target="_blank">Aleksandar Pejković</a>
 
 ## Da radimo zajedno?
 
