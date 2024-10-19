@@ -54,9 +54,8 @@ const weather  = await $fetch(
 
 ### Explanation:
 
-- **Dynamic Components**: We included two Vue components: one for fetching weather data and another for integrating NASA's Astronomy Picture of the Day (APOD) API.
-- **Images**: We showed how to include both external and local images in Markdown.
-- **API Integration**: Demonstrated how to fetch data from a public API (OpenWeather and NASA APIs) and display it within a Markdown file.
+- **Dynamic Components**: We included Vue component for fetching weather data.
+- **API Integration**: Demonstrated how to fetch data from a public API (OpenWeather) and display it within a Markdown file.
 - **Code Highlighting**: Showed how to format code snippets with syntax highlighting in Markdown.
 
 This example can help you structure more advanced blog posts using Nuxt 3 and `@nuxt/content`. Let me know if you need more clarification or assistance!

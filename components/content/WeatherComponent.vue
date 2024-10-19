@@ -1,6 +1,6 @@
 <template>
   <div class="weather">
-    <p v-if="weather">{{ $t('weather-msg1') }} {{ city }} {{ $t('weather-msg2') }} {{ weather.main.temp }}°C.</p>
+    <p v-if="weather">{{ weather.main.temp }}°C. {{ city }}</p>
     <p v-else>{{ $t('weather-loading-msg') }} {{ city }}...</p>
   </div>
 </template>
@@ -22,6 +22,5 @@ const weather  = await $fetch(
 <style scoped>
 .weather {
   font-size: 1.2em;
-  color: #333;
 }
 </style>

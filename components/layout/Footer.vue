@@ -14,7 +14,6 @@
           <a href="mailto:aleksandarpejkovic@hotmail.com">Email</a>
         </li>
       </ul>
-
       <p>Built with ❤️ using Nuxt 3</p>
     </div>
   </footer>

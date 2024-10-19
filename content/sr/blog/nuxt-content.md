@@ -54,10 +54,9 @@ const weather  = await $fetch(
 
 ### Objašnjenje:
 
-- **Dinamičke komponente**: Uključili smo dve Vue komponente: jednu za preuzimanje podataka o vremenu i drugu za integraciju NASA-ine slike dana (APOD API).
-- **Slike**: Prikazano je kako uključiti i spoljašnje i lokalne slike u Markdown.
-- **API integracija**: Prikazano je kako dohvatiti podatke sa javnog API-ja (OpenWeather i NASA API) i prikazati ih unutar Markdown fajla.
-- **Isticanje koda**: Prikazano je kako formatirati isječke koda sa isticanjem sintakse u Markdown-u.
+- **Dinamičke komponente**: Uključili smo Vue komponentu za preuzimanje podataka o vremenu.
+- **API integracija**: Prikazano je kako dohvatiti podatke sa javnog API-ja (OpenWeather) i prikazati ih unutar Markdown fajla.
+- **Isticanje koda**: Prikazano je kako formatirati isečke koda sa isticanjem sintakse u Markdown-u.
 
 Ovaj primer vam može pomoći da strukturirate naprednije blog postove koristeći Nuxt 3 i `@nuxt/content`. Javite ako vam treba dodatno objašnjenje ili pomoć!
 
