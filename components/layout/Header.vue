@@ -65,7 +65,7 @@ nav a {
   text-decoration: none;
   font-weight: bolder;
   padding: 0.5rem 1rem;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid transparent;
 }
 
 /* Hover and focus effects for navigation links */
