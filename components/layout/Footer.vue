@@ -13,6 +13,9 @@
         <li>
           <a href="mailto:aleksandarpejkovic@hotmail.com">Email</a>
         </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1fsLBPACir7TwxX9ZzbELz9oQEm0VKy-M/view?usp=drive_link" target="_blank" rel="noopener noreferrer">CV</a>
+        </li>
       </ul>
       <p>Built with ❤️ using Nuxt 3</p>
     </div>

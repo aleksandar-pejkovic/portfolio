@@ -36,6 +36,15 @@
   }
 }
 
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  text-align: left;
+}
+
 .wow-title {
   font-size: 4rem;
   line-height: normal;

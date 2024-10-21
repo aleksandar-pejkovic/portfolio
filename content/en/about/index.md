@@ -5,7 +5,7 @@ description: "Learn more about Aleksandar Pejković - accountant and aspiring we
 
 # About Me
 
-My name is Aleksandar Pejković and I currently work as an accountant in a primary school, but my goal is to develop as a **web developer**. I graduated from the economic high school in Varvarin and the **Faculty of Economics in Niš**. Additionally, I completed the **IT Academy** and several programming courses.
+My name is Aleksandar Pejković and I currently work as an accountant in a primary school, but my goal is to develop as a **web developer**. I obtained the title of graduate economist. Additionally, I completed the **IT Academy** and several programming courses.
 
 Through work and internships at companies such as **Endava** and **Epam**, I gained valuable experience that allowed me to expand my knowledge of technologies such as **Java**, **Spring Boot**, and **Nuxt.js**. I aim to become an expert in backend development, although I am also working on improving my frontend skills with technologies like **Vue.js** and **Nuxt.js**.
 

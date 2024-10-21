@@ -12,6 +12,7 @@ Ukoliko imate pitanja, predloge ili želite da sarađujete sa mnom, slobodno me 
 - **Email**: <a href="mailto:aleksandarpejkovic@hotmail.com" target="_blank">aleksandarpejkovic@hotmail.com</a>
 - **LinkedIn**: <a href="https://www.linkedin.com/in/aleksandar-pejkovic" target="_blank">Aleksandar Pejković</a>
 - **GitHub**: <a href="https://github.com/aleksandar-pejkovic" target="_blank">Aleksandar Pejković</a>
+- **Google disk**: <a href="https://drive.google.com/file/d/1fsLBPACir7TwxX9ZzbELz9oQEm0VKy-M/view?usp=drive_link" target="_blank">CV</a>
 
 ## Da radimo zajedno?
 

@@ -5,6 +5,49 @@ date: "2023-10-13"
 tags: ["Nuxt 3", "Vue 3", "API", "Komponente", "Markdown"]
 ---
 
+# Početak sa Nuxt 3 i @nuxt/content
+
+Dobrodošli u vaš prvi blog post! U ovom vodiču ćemo istražiti kako da kreirate blog post koristeći **Nuxt 3** i **@nuxt/content** modul. Uključićemo primere koda i slike kako bi post bio zanimljiviji.
+
+## Preduslovi
+
+Pre nego što počnemo, uverite se da imate sledeće instalirano:
+
+- **Node.js** (v14 ili novija verzija)
+- **Nuxt 3**
+
+## Postavljanje Projekta
+
+Sve vezano za Nuxt conent možete pronaći na:
+
+https://content.nuxt.com/
+<br></br>
+
+Prvo, kreirajte novi Nuxt 3 content projekat:
+
+```bash
+npx nuxi@latest init moj-nuxt-blog -t content
+cd moj-nuxt-blog
+```
+
+Alternativno, u svakom trenutku možete dodati content modul u postojeći projekat:
+```bash
+npx nuxi@latest module add content
+```
+
+Zatim, dodajte @nuxt/content u delu modules u svoj nuxt.config.ts:
+
+```properties
+export default defineNuxtConfig({
+  modules: [
+    '@nuxt/content'
+  ],
+  content: {
+    // ... options
+  }
+})
+```
+
 # Napredne funkcije sa Nuxt 3 i @nuxt/content
 
 U ovom postu ćemo istražiti neke napredne funkcije **Nuxt 3** i **@nuxt/content** modula, kao što je korišćenje Vue komponenti sa dinamičkim podacima i integracija API-ja trećih strana direktno u vaše Markdown fajlove. Hajde da dublje istražimo šta je sve moguće!
@@ -29,7 +72,6 @@ Evo primera jednostavne **WeatherComponent** komponente koja preuzima podatke o 
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
 
 const props = defineProps({
   city: {

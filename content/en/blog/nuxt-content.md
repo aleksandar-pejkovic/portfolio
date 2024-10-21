@@ -29,7 +29,6 @@ Here’s an example of a simple **WeatherComponent** that fetches weather data u
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
 
 const props = defineProps({
   city: {

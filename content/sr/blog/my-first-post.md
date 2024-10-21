@@ -24,3 +24,4 @@ Prvo, kreirajte novi Nuxt 3 projekat:
 ```bash
 npx nuxi init moj-nuxt-blog
 cd moj-nuxt-blog
+```
