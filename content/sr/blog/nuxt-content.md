@@ -1,13 +1,17 @@
 ---
 title: "Napredne funkcije sa Nuxt 3 i @nuxt/content"
 description: "Istražite kako koristiti dinamičke podatke, Vue komponente i treće strane API-je u Nuxt 3 koristeći Markdown."
-date: "2023-10-13"
-tags: ["Nuxt 3", "Vue 3", "API", "Komponente", "Markdown"]
+date: "2024-10-21"
+tags: ["Nuxt 3", "Vue 3", "API", "Komponente", "Markdown", "@nuxt/content"]
 ---
 
-# Početak sa Nuxt 3 i @nuxt/content
+# Nuxt 3 i @nuxt/content
 
 Dobrodošli u vaš prvi blog post! U ovom vodiču ćemo istražiti kako da kreirate blog post koristeći **Nuxt 3** i **@nuxt/content** modul. Uključićemo primere koda i slike kako bi post bio zanimljiviji.
+
+Sve vezano za Nuxt content možete pronaći na zvaničnom sajtu:
+
+https://content.nuxt.com/
 
 ## Preduslovi
 
@@ -17,11 +21,6 @@ Pre nego što počnemo, uverite se da imate sledeće instalirano:
 - **Nuxt 3**
 
 ## Postavljanje Projekta
-
-Sve vezano za Nuxt conent možete pronaći na:
-
-https://content.nuxt.com/
-<br></br>
 
 Prvo, kreirajte novi Nuxt 3 content projekat:
 
@@ -37,7 +36,7 @@ npx nuxi@latest module add content
 
 Zatim, dodajte @nuxt/content u delu modules u svoj nuxt.config.ts:
 
-```properties
+```js
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content'
@@ -48,13 +47,43 @@ export default defineNuxtConfig({
 })
 ```
 
-# Napredne funkcije sa Nuxt 3 i @nuxt/content
+## Korišćenje @nuxt/content modula za biranje sadržaja na osnovu putanje
+@nuxt/content modul automatski mapira fajlove iz **content/** foldera na rute. To znači da svaki Markdown fajl koji smeštaš u ovaj folder postaje dostupna stranica na sajtu sa odgovarajućom URL putanjom.
 
-U ovom postu ćemo istražiti neke napredne funkcije **Nuxt 3** i **@nuxt/content** modula, kao što je korišćenje Vue komponenti sa dinamičkim podacima i integracija API-ja trećih strana direktno u vaše Markdown fajlove. Hajde da dublje istražimo šta je sve moguće!
+Kako @nuxt/content bira sadržaj?
+Svaki Markdown fajl u content/ folderu automatski postaje ruta na sajtu. Na primer, ako imaš fajl u folderu **content/blog/my-post.md**, ta stranica će biti dostupna na ruti **/blog/my-post**.
+
+Nuxt.js koristi dinamičke rute i content query kako bi prikazao odgovarajući sadržaj.
+
+### Korak 1: Kreiranje Markdown fajlova
+Unutar foldera **content/blog/** kreiraj Markdown fajl **my-first-post.md**
+
+### Korak 2: Kreiranje dinamičke rute u Nuxt projektu
+
+**`<ContentDoc />`** je ugrađena komponenta iz @nuxt/content modula koja automatski prikazuje sadržaj na osnovu putanje.
+
+Kada korisnik poseti rutu kao što je **/blog/my-first-post**, Nuxt automatski prikazuje sadržaj fajla **content/blog/my-first-post.md** koristeći **`<ContentDoc />`**.
+Ovaj pristup pojednostavljuje rad sa dinamičkim sadržajem, jer @nuxt/content modul prepoznaje Markdown fajlove i automatski ih renderuje na osnovu URL putanje.
+Unutar foldera `pages/blog/[slug].vue`, dodaj sledeći kod za prikaz sadržaja Markdown fajlova:
+
+```vue
+<template>
+  <div>
+    <ContentDoc />
+  </div>
+</template>
+```
+---
+
+## Napredne funkcije sa Nuxt 3 i @nuxt/content
+
+Sada ćemo istražiti neke napredne funkcije **Nuxt 3** i **@nuxt/content** modula, kao što je korišćenje Vue komponenti sa dinamičkim podacima i integracija API-ja trećih strana direktno u vaše Markdown fajlove. Hajde da dublje istražimo šta je sve moguće!
 
 ## Korišćenje dinamičkih podataka u Vue komponentama
 
-Vue komponente mogu biti korišćene direktno unutar vašeg Markdown sadržaja. Ovo vam omogućava da kombinujete statički sadržaj sa dinamičkim funkcijama, kao što je dohvat podataka sa API-ja.
+Vue komponente mogu biti korišćene direktno unutar vašeg Markdown sadržaja. Ovo vam omogućava da kombinujete statički sadržaj sa dinamičkim funkcijama, kao što je preuzimanje podataka sa API-ja.
+
+Ono što je **veoma bitno** je da se komponenta nalazi unutar foldera **components/content**
 
 Evo primera jednostavne **WeatherComponent** komponente koja preuzima podatke o vremenu koristeći [OpenWeather API](https://openweathermap.org/).
 
@@ -94,6 +123,24 @@ const weather  = await $fetch(
 </style>
 ```
 
+A zatim jednostavno dodajte komponentu u Markdown fajl i prosledite naziv željenog mesta:
+
+Važno: Vue komponente u Markdown fajlovima ne smeju koristiti auto-close tagove. Iako auto-close tagovi poput:
+
+```vue
+<WeatherComponent city="Belgrade" />
+```
+
+mogu pravilno prikazati komponentu, sve što dolazi nakon te komponente možda se neće prikazati zbog načina na koji Markdown parser obrađuje auto-close tagove.
+
+Zato je potrebno da komponente uvek imaju eksplicitno zatvaranje:
+
+```vue
+<WeatherComponent city="Belgrade"></WeatherComponent>
+```
+
+Ovo osigurava da se kompletan sadržaj, uključujući komponente i sav tekst koji sledi, pravilno prikaže.
+
 ### Objašnjenje:
 
 - **Dinamičke komponente**: Uključili smo Vue komponentu za preuzimanje podataka o vremenu.
@@ -106,4 +153,8 @@ Ovaj primer vam može pomoći da strukturirate naprednije blog postove koristeć
 
 Evo trenutnog vremena u **Beogradu**:
 
-<WeatherComponent city="Belgrade" />
+<WeatherComponent city="Belgrade"></WeatherComponent>
+
+---
+Aleksandar Pejković  
+**Web developer**  

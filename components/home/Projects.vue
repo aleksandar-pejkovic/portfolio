@@ -30,6 +30,8 @@ import projects from '~/assets/data/projects.json'
   text-align: left;
   width: 80%;
   max-width: 1200px;
+  text-decoration: none;
+  color: black;
 }
 
 .project-image {
@@ -42,7 +44,6 @@ import projects from '~/assets/data/projects.json'
 .project-card h3 {
   margin-top: 1rem;
   font-size: 1.5rem;
-  text-decoration: none;
 }
 
 .project-card:hover {
