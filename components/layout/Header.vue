@@ -10,9 +10,6 @@
           Aleksandar Pejković</NuxtLink>
         <NuxtLink :to="localePath('/blog')" :class="{ 'active-link': $route.path.startsWith(`/${locale}/blog`) }"
           @click="toggleMenu">{{ $t('blog') }}</NuxtLink>
-        <NuxtLink :to="localePath('/projects')"
-          :class="{ 'active-link': $route.path.startsWith(`/${locale}/projects`) }" @click="toggleMenu">{{
-            $t('projects') }}</NuxtLink>
         <NuxtLink :to="localePath('/about')" :class="{ 'active-link': $route.path === `/${locale}/about` }"
           @click="toggleMenu">{{ $t('about') }}</NuxtLink>
         <NuxtLink :to="localePath('/contact')" :class="{ 'active-link': $route.path === `/${locale}/contact` }"

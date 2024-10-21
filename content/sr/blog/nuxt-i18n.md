@@ -1,7 +1,7 @@
 ---
 title: "Višejezični sajt sa Nuxt 3 i @nuxtjs/i18n"
 description: "Naučite kako da kreirate višejezični sajt u Nuxt 3 koristeći @nuxtjs/i18n modul, sa sadržajem smeštenim u jezički specifične foldere."
-date: "2024-10-21"
+date: "21.10.2024."
 tags: ["Nuxt 3", "Vue 3", "i18n", "Više jezika", "Markdown", "@nuxtjs/i18n"]
 ---
 

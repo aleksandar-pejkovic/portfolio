@@ -15,11 +15,8 @@
   "weather-loading-msg": "Učitavaju se vremenski podaci za",
   "learnMore": "Saznaj više",
   "myProjects": "Moji Projekti",
-  "budgetPlusDesc": "Aplikacija za računovodstvo dizajnirana da pojednostavi svakodnevne zadatke.",
-  "reliaBillDesc": "Aplikacija za fakturisanje za male firme i agencije.",
   "technologies": "Tehnologije koje koristim",
   "workTogether": "Sarađujmo",
   "workTogetherDescription": "Uvek sam otvoren za nove projekte i mogućnosti saradnje. Slobodno me kontaktirajte da razgovaramo o tome kako možemo raditi zajedno.",
-  "contactMe": "Kontaktiraj me",
-  "csvExporterDesc": "Aplikacija za izvoz podataka iz baze u csv format."
+  "contactMe": "Kontaktiraj me"
 }

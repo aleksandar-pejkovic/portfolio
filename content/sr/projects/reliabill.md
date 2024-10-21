@@ -1,9 +1,12 @@
 ---
 title: "ReliaBill"
 description: "Aplikacija za fakturisanje koja pojednostavljuje upravljanje računima za mala i srednja preduzeća."
+image: "/img/projects/reliabill/landing-page.jpeg"
 ---
 
 # ReliaBill
+
+<img src="/img/projects/reliabill/landing-page.jpeg" alt="reliabill landing page" class="content-project-image">
 
 **ReliaBill** je sveobuhvatna aplikacija za fakturisanje koja je razvijena kako bi olakšala i automatizovala proces izdavanja računa za mala i srednja preduzeća. Aplikacija omogućava korisnicima brzo i lako kreiranje, upravljanje i praćenje računa, uz dodatne funkcionalnosti poput izveštavanja, upravljanja klijentima i slanja računa putem email-a.
 

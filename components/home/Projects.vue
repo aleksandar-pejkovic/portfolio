@@ -1,25 +1,25 @@
 <template>
   <h2>{{ $t('myProjects') }}</h2>
   <div class="projects-grid">
-    <NuxtLink v-for="project in projects" :key="project.name" :to="localePath(project.path)" class="project-card">
-      <div class="project-image" :style="{ backgroundImage: `url(${project.image})` }"></div>
-      <h3>{{ project.name }}</h3>
-      <p>{{ $t(project.descriptionKey) }}</p>
-    </NuxtLink>
+    <ContentCard v-for="project in projects" :key="project._path" :item="project" />
   </div>
 </template>
 
 <script setup>
-import projects from '~/assets/data/projects.json'
+const { locale } = useI18n()
+
+const { data: projects } = await useAsyncData('content:projects', () =>
+  queryContent(`${locale.value}/projects`).only(['_path', 'title', 'description', 'image']).find()
+)
 </script>
 
 <style scoped>
 .projects-grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
   flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .project-card {

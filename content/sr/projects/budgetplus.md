@@ -1,9 +1,12 @@
 ---
 title: "BudgetPlus"
 description: "Sveobuhvatna aplikacija za upravljanje budžetom za korisnike budžetskih sredstava."
+image: "/img/projects/budgetplus/landing-page.png"
 ---
 
 # BudgetPlus
+
+<img src="/img/projects/budgetplus/landing-page.png" alt="budget plus landing page" class="content-project-image">
 
 **BudgetPlus** je sveobuhvatna softverska aplikacija namenjena institucijama koje upravljaju budžetima, poput škola, javnih institucija i nevladinih organizacija. Sistem omogućava automatizaciju finansijskih tokova, kreiranje izveštaja, budžetiranje i analizu finansijskih performansi, čime se značajno smanjuje administrativni teret za korisnike.
 

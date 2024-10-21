@@ -1,7 +1,7 @@
 ---
 title: "Napredne funkcije sa Nuxt 3 i @nuxt/content"
 description: "Istražite kako koristiti dinamičke podatke, Vue komponente i treće strane API-je u Nuxt 3 koristeći Markdown."
-date: "2024-10-21"
+date: "21.10.2024."
 tags: ["Nuxt 3", "Vue 3", "API", "Komponente", "Markdown", "@nuxt/content"]
 ---
 

@@ -1,11 +1,9 @@
 <template>
   <div>
     <h1>Blog</h1>
-    <ul>
-      <li v-for="post in posts" :key="post._path">
-        <NuxtLink :to="localePath(post._path)">{{ $t(post.title) }}</NuxtLink>
-      </li>
-    </ul>
+    <div class="content-grid">
+      <ContentCard v-for="post in posts" :key="post._path" :item="post" />
+    </div>
   </div>
 </template>
 
@@ -13,6 +11,16 @@
 const { locale } = useI18n()
 
 const { data: posts } = await useAsyncData('content:blog', () =>
-  queryContent(`${locale.value}/blog`).only(['_path', 'title']).find()
+  queryContent(`${locale.value}/blog`).only(['_path', 'title', 'description', 'date', 'tags']).find()
 )
 </script>
+
+<style scoped>
+.content-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+</style>

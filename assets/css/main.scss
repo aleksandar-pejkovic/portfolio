@@ -63,6 +63,11 @@ li {
     /* Add rounded corners (similar to rounded-md in Tailwind) */
 }
 
+.content-project-image {
+    width: 100%;
+    height: auto;
+}
+
 /* @media query za mobilne uređaje */
 @media (max-width: 768px) {
 

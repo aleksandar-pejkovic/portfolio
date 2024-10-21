@@ -15,11 +15,8 @@
     "weather-loading-msg": "Loading weather data for",
     "learnMore": "Learn More",
     "myProjects": "My Projects",
-    "budgetPlusDesc": "An accounting application designed to simplify everyday tasks.",
-    "reliaBillDesc": "An invoicing application for small businesses and agencies.",
     "technologies": "Technologies I Use",
     "workTogether": "Let's Work Together",
     "workTogetherDescription": "I'm always open to new projects and collaboration opportunities. Feel free to reach out to discuss how we can work together.",
-    "contactMe": "Contact Me",
-    "csvExporterDesc": "An application for exporting data from a database to CSV format."
+    "contactMe": "Contact Me"
 }

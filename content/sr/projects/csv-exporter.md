@@ -1,9 +1,12 @@
 ---
 title: "CSV Exporter"
 description: "Test projekat koji koristi Apache Camel i Spring Boot za backend integraciju i Angular za frontend korisnički interfejs."
+image: "/img/projects/csv-exporter/code.jpg"
 ---
 
 # Projekat sa Apache Camel, Spring Boot i Angular
+
+<img src="/img/projects/csv-exporter/code.jpg" alt="csv exporter code sample" class="content-project-image">
 
 Ovaj projekat je razvijen kao test aplikacija sa ciljem integracije različitih sistema koristeći **Apache Camel** i **Spring Boot** za backend, i **Angular** za frontend deo aplikacije. **Apache Camel** je korišćen za procesiranje i integraciju poruka između sistema, dok je **Spring Boot** omogućio stabilnu i skalabilnu platformu za backend operacije. **Angular** je korišćen za razvoj modernog web korisničkog interfejsa koji omogućava interakciju sa podacima.
 
