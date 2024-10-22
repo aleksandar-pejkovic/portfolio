@@ -3,9 +3,12 @@ title: "Napredne funkcije sa Nuxt 3 i @nuxt/content"
 description: "Istražite kako koristiti dinamičke podatke, Vue komponente i treće strane API-je u Nuxt 3 koristeći Markdown."
 date: "21.10.2024."
 tags: ["Nuxt 3", "Vue 3", "API", "Komponente", "Markdown", "@nuxt/content"]
+image: "/img/blog/nuxt-content/cover.png"
 ---
 
 # Nuxt 3 i @nuxt/content
+
+<img src="/img/blog/nuxt-content/cover.png" alt="nuxt-content cover" class="content-project-image">
 
 Dobrodošli u vaš prvi blog post! U ovom vodiču ćemo istražiti kako da kreirate blog post koristeći **Nuxt 3** i **@nuxt/content** modul. Uključićemo primere koda i slike kako bi post bio zanimljiviji.
 

@@ -11,7 +11,7 @@
 const { locale } = useI18n()
 
 const { data: posts } = await useAsyncData('content:blog', () =>
-  queryContent(`${locale.value}/blog`).only(['_path', 'title', 'description', 'date', 'tags']).find()
+  queryContent(`${locale.value}/blog`).only(['_path', 'title', 'description', 'date', 'tags', 'image']).find()
 )
 </script>
 

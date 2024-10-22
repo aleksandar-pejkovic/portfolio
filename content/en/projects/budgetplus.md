@@ -10,6 +10,10 @@ image: "/img/projects/budgetplus/landing-page.png"
 
 **BudgetPlus** is a comprehensive software application designed for institutions that manage budgets, such as schools, public institutions, and NGOs. The system enables automation of financial flows, report generation, budgeting, and analysis of financial performance, significantly reducing the administrative burden for users.
 
+- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/budget-plus" target="_blank">BudgetPlus (Srping Boot)</a> (private, invitation required)
+
+- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/budget-plus-client" target="_blank">BudgetPlus client (Nuxt.js)</a> (private, invitation required)
+
 ## System Architecture
 
 **BudgetPlus** is developed as a **SaaS** (Software as a Service) application with separate backend and frontend components.

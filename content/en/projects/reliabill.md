@@ -10,6 +10,10 @@ image: "/img/projects/reliabill/landing-page.jpeg"
 
 **ReliaBill** is a comprehensive invoicing application developed to simplify and automate the process of issuing invoices for small and medium-sized businesses. The application allows users to quickly and easily create, manage, and track invoices, with additional functionalities such as reporting, client management, and sending invoices via email.
 
+- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/relia-bill" target="_blank">ReliaBill (Srping Boot)</a>
+
+- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/relia-vue" target="_blank">ReliaVue (Vue.js)</a>
+
 ## System Architecture
 
 **ReliaBill** is developed as a modern **SaaS** application, consisting of separate backend and frontend components, with a focus on scalability, security, and ease of use.

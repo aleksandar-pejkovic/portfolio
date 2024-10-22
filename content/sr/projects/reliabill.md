@@ -10,6 +10,10 @@ image: "/img/projects/reliabill/landing-page.jpeg"
 
 **ReliaBill** je sveobuhvatna aplikacija za fakturisanje koja je razvijena kako bi olakšala i automatizovala proces izdavanja računa za mala i srednja preduzeća. Aplikacija omogućava korisnicima brzo i lako kreiranje, upravljanje i praćenje računa, uz dodatne funkcionalnosti poput izveštavanja, upravljanja klijentima i slanja računa putem email-a.
 
+- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/relia-bill" target="_blank">ReliaBill (Srping Boot)</a>
+
+- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/relia-vue" target="_blank">ReliaVue (Vue.js)</a>
+
 ## Arhitektura sistema
 
 **ReliaBill** je razvijen kao moderna **SaaS** aplikacija, koja se sastoji od zasebnog backend i frontend dela, sa fokusom na skalabilnost, sigurnost i jednostavnost korišćenja.

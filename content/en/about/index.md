@@ -24,3 +24,7 @@ One of my most important projects is the **BudgetPlus** application, which I am 
 In the future, I plan to further improve my skills in backend development while also becoming proficient in frontend technologies to become a complete web developer. My plans include further advancing in the **Spring Boot** ecosystem and working on developing complex web applications.
 
 If you would like to know more about me or my projects, feel free to contact me via **[aleksandarpejkovic@hotmail.com](mailto:aleksandarpejkovic@hotmail.com)**.
+
+---
+Aleksandar Pejković  
+**Web Developer**

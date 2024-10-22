@@ -5,7 +5,6 @@
       <NuxtImg class="card-image" :src="item.image" />
       <h3>{{ item.title }}</h3>
       <p>{{ item.description }}</p>
-      <h5>{{ item.tags }}</h5>
     </NuxtLink>
   </div>
 </template>

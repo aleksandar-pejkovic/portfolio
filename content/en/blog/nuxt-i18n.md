@@ -3,9 +3,12 @@ title: "Multilingual Website with Nuxt 3 and @nuxtjs/i18n"
 description: "Learn how to create a multilingual website in Nuxt 3 using the @nuxtjs/i18n module, with content stored in language-specific folders."
 date: "2024-10-21"
 tags: ["Nuxt 3", "Vue 3", "i18n", "Multilingual", "Markdown", "@nuxtjs/i18n"]
+image: "/img/blog/nuxt-i18n/cover.png"
 ---
 
 # Multilingual Website with Nuxt 3 and @nuxtjs/i18n
+
+<img src="/img/blog/nuxt-i18n/cover.png" alt="nuxt-i18n cover" class="content-project-image">
 
 In this blog post, we’ll explore how to set up multilingual content in **Nuxt 3** using the **@nuxtjs/i18n** module. We'll configure content to be pulled from language-specific folders for **Serbian** and **English** languages, and demonstrate how Nuxt automatically detects and applies the user's browser language settings.
 

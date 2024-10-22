@@ -14,10 +14,11 @@
           <a href="mailto:aleksandarpejkovic@hotmail.com">Email</a>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1fsLBPACir7TwxX9ZzbELz9oQEm0VKy-M/view?usp=drive_link" target="_blank" rel="noopener noreferrer">CV</a>
+          <a href="https://drive.google.com/file/d/1fsLBPACir7TwxX9ZzbELz9oQEm0VKy-M/view?usp=drive_link"
+            target="_blank" rel="noopener noreferrer">CV</a>
         </li>
       </ul>
-      <p>Built with ❤️ using Nuxt 3</p>
+      <p class="pulsating">Built with ❤️ using Nuxt 3</p>
     </div>
   </footer>
 </template>
@@ -29,9 +30,11 @@
 <style scoped>
 /* Footer content styling */
 footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   background-color: #1e1e2f;
   color: white;
-  text-align: center;
   padding: 2rem 0;
 }
 
@@ -61,8 +64,11 @@ footer {
 }
 
 .social-links a:hover {
-  color: #4CAF50;
-  /* Hover color */
+  color: var(--accent-color);
+}
+
+.pulsating {
+  animation: pulse 1.5s infinite ease-in-out;
 }
 
 .footer-content p:last-child {

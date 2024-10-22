@@ -1,6 +1,6 @@
 <template>
   <div class="hero-text">
-    <h1 class="wow-title">{{ $t('welcome1') }} <br /> <span class="accent-text">{{ $t('welcome2') }}</span> - {{
+    <h1 class="wow-title">{{ $t('welcome1') }} <br /> <span class="accent-text">{{ $t('welcome2') }}</span> <br /> {{
       $t('welcome3') }} <span class="accent-text">{{ $t('welcome4') }}</span> {{ $t('welcome5') }}</h1>
     <p class="wow-subtitle">{{ $t('heroSubtitle') }}</p>
     <NuxtLink :to="localePath('/about')" class="button">{{ $t('learnMore') }}</NuxtLink>
@@ -48,7 +48,7 @@
 .wow-title {
   font-size: 4rem;
   line-height: normal;
-  animation: fadeInDown 1s ease-out;
+  animation: fadeInDown 1s ease-out; transition: transform 1.3s ease, color 1.3s ease;
 }
 
 .wow-subtitle {
@@ -59,6 +59,12 @@
 
 .accent-text {
   color: var(--accent-color);
+  transition: transform 1.3s ease, color 1.3s ease;
+}
+
+.accent-text:hover {
+  transform: scale(1.05);
+  color: maroon;
 }
 
 @media (max-width: 768px) {

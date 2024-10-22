@@ -3,9 +3,12 @@ title: "Višejezični sajt sa Nuxt 3 i @nuxtjs/i18n"
 description: "Naučite kako da kreirate višejezični sajt u Nuxt 3 koristeći @nuxtjs/i18n modul, sa sadržajem smeštenim u jezički specifične foldere."
 date: "21.10.2024."
 tags: ["Nuxt 3", "Vue 3", "i18n", "Više jezika", "Markdown", "@nuxtjs/i18n"]
+image: "/img/blog/nuxt-i18n/cover.png"
 ---
 
 # Višejezični sajt sa Nuxt 3 i @nuxtjs/i18n
+
+<img src="/img/blog/i18n/cover.png" alt="nuxt-i18n cover" class="content-project-image">
 
 U ovom blog postu ćemo istražiti kako da postavite višejezični sadržaj u **Nuxt 3** koristeći **@nuxtjs/i18n** modul. Konfigurišaćemo sadržaj tako da se koristi iz jezički specifičnih foldera za **srpski** i **engleski** jezik, i prikazaćemo kako Nuxt automatski detektuje i primenjuje jezik na osnovu postavki pregledača korisnika.
 

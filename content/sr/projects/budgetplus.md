@@ -10,6 +10,10 @@ image: "/img/projects/budgetplus/landing-page.png"
 
 **BudgetPlus** je sveobuhvatna softverska aplikacija namenjena institucijama koje upravljaju budžetima, poput škola, javnih institucija i nevladinih organizacija. Sistem omogućava automatizaciju finansijskih tokova, kreiranje izveštaja, budžetiranje i analizu finansijskih performansi, čime se značajno smanjuje administrativni teret za korisnike.
 
+- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/budget-plus" target="_blank">BudgetPlus (Srping Boot)</a> (private, samo uz odobren pristup)
+
+- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/budget-plus-client" target="_blank">BudgetPlus client (Nuxt.js)</a> (private, samo uz odobren pristup)
+
 ## Arhitektura sistema
 
 **BudgetPlus** je razvijen kao **SaaS** (Software as a Service) aplikacija sa zasebnim backend i frontend delom.

@@ -24,3 +24,7 @@ Jedan od mojih najvažnijih projekata je aplikacija **BudgetPlus**, koju razvija
 U budućnosti planiram da unapredim svoje veštine u backend razvoju, ali i da postanem kompetentan u frontend tehnologijama kako bih bio kompletan web developer. Moji planovi uključuju dalje usavršavanje u **Spring Boot** ekosistemu, kao i rad na razvoju kompleksnih web aplikacija.
 
 Ako želite da saznate više o meni ili mojim projektima, slobodno me kontaktirajte putem **[aleksandarpejkovic@hotmail.com](mailto:aleksandarpejkovic@hotmail.com)**.
+
+---
+Aleksandar Pejković  
+**Web developer**

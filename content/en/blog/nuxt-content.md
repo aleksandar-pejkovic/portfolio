@@ -3,9 +3,12 @@ title: "Advanced Features with Nuxt 3 and @nuxt/content"
 description: "Explore how to use dynamic data, Vue components, and third-party APIs in Nuxt 3 using Markdown."
 date: "2024-10-21"
 tags: ["Nuxt 3", "Vue 3", "API", "Components", "Markdown", "@nuxt/content"]
+image: "/img/blog/nuxt-content/cover.png"
 ---
 
 # Nuxt 3 and @nuxt/content
+
+<img src="/img/blog/nuxt-content/cover.png" alt="nuxt-content cover" class="content-project-image">
 
 Welcome to your first blog post! In this guide, we'll explore how to create a blog post using **Nuxt 3** and the **@nuxt/content** module. We'll include code examples and images to make the post more engaging.
 
