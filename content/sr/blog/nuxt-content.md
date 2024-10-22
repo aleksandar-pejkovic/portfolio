@@ -67,9 +67,10 @@ Unutar foldera **content/blog/** kreiraj Markdown fajl **my-first-post.md**
 
 Kada korisnik poseti rutu kao što je **/blog/my-first-post**, Nuxt automatski prikazuje sadržaj fajla **content/blog/my-first-post.md** koristeći **`<ContentDoc />`**.
 Ovaj pristup pojednostavljuje rad sa dinamičkim sadržajem, jer @nuxt/content modul prepoznaje Markdown fajlove i automatski ih renderuje na osnovu URL putanje.
-Unutar foldera `pages/blog/[slug].vue`, dodaj sledeći kod za prikaz sadržaja Markdown fajlova:
+Unutar foldera **pages/blog/** kreiraj novu komponentu **`[slug]`.vue** koja predstavlja promenljivi deo URL putanje, a zatim dodaj sledeći kod za prikaz sadržaja Markdown fajlova:
 
 ```vue
+<!-- pages/blog/[slug].vue -->
 <template>
   <div>
     <ContentDoc />
@@ -98,13 +99,12 @@ Evo primera jednostavne **WeatherComponent** komponente koja preuzima podatke o 
 <!-- components/content/WeatherComponent.vue -->
 <template>
   <div class="weather">
-    <p v-if="weather">The weather in {{ city }} is {{ weather.main.temp }}°C.</p>
+    <p v-if="weather">{{ weather.main.temp }}°C. {{ city }}</p>
     <p v-else>Loading weather data for {{ city }}...</p>
   </div>
 </template>
 
 <script setup>
-
 const props = defineProps({
   city: {
     type: String,
@@ -121,7 +121,6 @@ const weather  = await $fetch(
 <style scoped>
 .weather {
   font-size: 1.2em;
-  color: #333;
 }
 </style>
 ```
@@ -150,7 +149,7 @@ Ovo osigurava da se kompletan sadržaj, uključujući komponente i sav tekst koj
 - **API integracija**: Prikazano je kako dohvatiti podatke sa javnog API-ja (OpenWeather) i prikazati ih unutar Markdown fajla.
 - **Isticanje koda**: Prikazano je kako formatirati isečke koda sa isticanjem sintakse u Markdown-u.
 
-Ovaj primer vam može pomoći da strukturirate naprednije blog postove koristeći Nuxt 3 i `@nuxt/content`. Javite ako vam treba dodatno objašnjenje ili pomoć!
+Ovaj primer vam može pomoći da strukturirate naprednije blog postove koristeći **Nuxt 3** i **`@nuxt/content`**. Javite ako vam treba dodatno objašnjenje ili pomoć!
 
 ## Prikazivanje vremenskih podataka u Markdown-u
 

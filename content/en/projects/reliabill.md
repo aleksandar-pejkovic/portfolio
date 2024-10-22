@@ -6,7 +6,7 @@ image: "/img/projects/reliabill/landing-page.jpeg"
 
 # ReliaBill
 
-<img src="/img/projects/reliabill/landing-page.jpeg" alt="csv exporter code sample" class="content-project-image">
+<img src="/img/projects/reliabill/landing-page.jpeg" alt="reliabill cover" class="content-project-image">
 
 **ReliaBill** is a comprehensive invoicing application developed to simplify and automate the process of issuing invoices for small and medium-sized businesses. The application allows users to quickly and easily create, manage, and track invoices, with additional functionalities such as reporting, client management, and sending invoices via email.
 

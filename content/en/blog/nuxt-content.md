@@ -62,9 +62,10 @@ Within the **content/blog/** folder, create a Markdown file **my-first-post.md**
 
 The **`<ContentDoc />`** component, part of the @nuxt/content module, automatically displays content based on the URL path. When a user visits a route such as **/blog/my-first-post**, Nuxt automatically displays the content of the **content/blog/my-first-post.md** file using **`<ContentDoc />`**.
 
-Simply add the following code to display the content in the `pages/blog/[slug].vue` file:
+Inside the **pages/blog/ folder**, create a new component **`[slug].vue`**, which represents the dynamic part of the URL path, and then add the following code to display the content of Markdown files:
 
 ```vue
+<!-- pages/blog/[slug].vue -->
 <template>
   <div>
     <ContentDoc />
@@ -94,7 +95,7 @@ Here’s an example of a simple **WeatherComponent** that fetches weather data u
 <!-- components/content/WeatherComponent.vue -->
 <template>
   <div class="weather">
-    <p v-if="weather">The weather in {{ city }} is {{ weather.main.temp }}°C.</p>
+    <p v-if="weather">{{ weather.main.temp }}°C. {{ city }}</p>
     <p v-else>Loading weather data for {{ city }}...</p>
   </div>
 </template>
@@ -116,7 +117,6 @@ const weather  = await $fetch(
 <style scoped>
 .weather {
   font-size: 1.2em;
-  color: #333;
 }
 </style>
 ```
@@ -145,7 +145,7 @@ This ensures that the entire content, including components and any following tex
 - **API Integration**: This example shows how to fetch data from a public API (OpenWeather) and display it within a Markdown file.
 - **Code Highlighting**: Shows how to format code snippets with syntax highlighting in Markdown.
 
-This example can help you structure more advanced blog posts using Nuxt 3 and `@nuxt/content`. Let me know if you need further clarification or assistance!
+This example can help you structure more advanced blog posts using **Nuxt 3** and **`@nuxt/content`**. Let me know if you need further clarification or assistance!
 
 ## Displaying Weather Data in Markdown
 
