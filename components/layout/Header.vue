@@ -110,7 +110,7 @@ nav a:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 999;
     visibility: hidden;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
     transition: transform 0.9s ease-in-out;
   }
 

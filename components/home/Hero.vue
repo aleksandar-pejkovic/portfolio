@@ -48,7 +48,8 @@
 .wow-title {
   font-size: 4rem;
   line-height: normal;
-  animation: fadeInDown 1s ease-out; transition: transform 1.3s ease, color 1.3s ease;
+  animation: fadeInDown 1s ease-out;
+  transition: transform 1.3s ease, color 1.3s ease;
 }
 
 .wow-subtitle {

@@ -45,6 +45,11 @@
 .tech-icon {
   text-align: center;
   width: 100px;
+  transition: all 1.9s ease-in-out;
+}
+
+.tech-icon:hover {
+  transform: rotateZ(720deg) scale(2);
 }
 
 .tech-icon img {
