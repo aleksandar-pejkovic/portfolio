@@ -123,8 +123,6 @@ Unutar foldera **`pages/blog/[slug].vue`**, dodajte sledeći kod za prikaz sadr�
 
 Ovaj kod automatski prikazuje sadržaj iz **content/** foldera u zavisnosti od rute i izabranog jezika.
 
----
-
 ## Zaključak
 
 Kombinovanjem **Nuxt 3**, **@nuxtjs/i18n** i **@nuxt/content** modula možete lako kreirati višejezični sajt koji dinamički učitava sadržaj na osnovu jezika korisnika ili jezika pregledača. Ovaj pristup omogućava jednostavno upravljanje globalnim sadržajem i poboljšava korisničko iskustvo za različite jezičke grupe.

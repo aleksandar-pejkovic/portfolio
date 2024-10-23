@@ -123,8 +123,6 @@ Inside the **`pages/blog/[slug].vue`** folder, add the following code to display
 
 This code automatically displays content from the **content/** folder depending on the route and selected language.
 
----
-
 ## Conclusion
 
 By combining **Nuxt 3**, **@nuxtjs/i18n**, and **@nuxt/content** modules, you can easily create a multilingual website that dynamically loads content based on the user’s language or browser settings. This approach allows for simple management of global content and improves the user experience for different language groups.

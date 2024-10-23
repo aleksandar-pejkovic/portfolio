@@ -49,7 +49,7 @@
 }
 
 .tech-icon:hover {
-  transform: rotateZ(720deg) scale(2);
+  transform: rotateZ(720deg) scale(1.2);
 }
 
 .tech-icon img {
