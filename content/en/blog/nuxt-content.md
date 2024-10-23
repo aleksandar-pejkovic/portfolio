@@ -123,7 +123,7 @@ const weather  = await $fetch(
 
 Then, simply add the component to the Markdown file and pass the desired city name:
 
-**Important:** Vue components in Markdown files **should not use auto-close tags**. While auto-close tags like:
+Vue components in Markdown files **should not use auto-close tags**. While auto-close tags like:
 
 ```vue
 <WeatherComponent city="Belgrade" />
@@ -139,19 +139,55 @@ Instead, you should always explicitly close components like this:
 
 This ensures that the entire content, including components and any following text, renders correctly.
 
+However, **Nuxt Content** module **offers another feature**, allowing you to use a special **Markdown syntax** for **embedding components into content**. Instead of the traditional Vue component embedding, you can utilize the built-in MDC (Markdown Components) syntax. This method makes it easier to insert components directly into your content:
+
+```md
+::WeatherComponent{city="Belgrade"}
+::
+```
+
+This approach simplifies working with dynamic data within static Markdown content and provides a seamless integration of Vue components without rendering issues in the rest of the content.
+
+For more information on embedding components with MDC syntax, check out the official documentation:
+
+https://content.nuxt.com/usage/markdown#vue-components
+
+## Sample Markdown File
+
+```md
+  ---
+  title: "Using $doc Variables and Vue Components"
+  description: "A short guide on integrating $doc variables and components in Markdown."
+  date: "2024-10-21"
+  ---
+
+  # {{ $doc.title }}
+
+  You can use metadata like **Title**: {{ $doc.title }} or **Date**: {{ $doc.date }} anywhere in your content.
+
+  To add Vue components, you can use:
+
+  ::WeatherComponent{city="Belgrade"}
+  ::
+
+  Additional elements like **lists**, **quote blocks**, and **code blocks** are fully supported.
+
+```
+
+## Displaying Weather Data in Markdown
+
+Here is the current weather in **Belgrade**:
+
+::weatherComponent{city="Belgrade"}
+::
+
 ### Explanation:
 
 - **Dynamic Components**: We’ve included a Vue component to fetch weather data.
 - **API Integration**: This example shows how to fetch data from a public API (OpenWeather) and display it within a Markdown file.
 - **Code Highlighting**: Shows how to format code snippets with syntax highlighting in Markdown.
 
-This example can help you structure more advanced blog posts using **Nuxt 3** and **`@nuxt/content`**. Let me know if you need further clarification or assistance!
-
-## Displaying Weather Data in Markdown
-
-Here is the current weather in **Belgrade**:
-
-<WeatherComponent city="Belgrade"></WeatherComponent>
+This example can help you structure more advanced blog posts using **Nuxt 3** and **`@nuxt/content`**.
 
 ---
 

@@ -99,7 +99,7 @@ Evo primera jednostavne **WeatherComponent** komponente koja preuzima podatke o 
 <!-- components/content/WeatherComponent.vue -->
 <template>
   <div class="weather">
-    <p v-if="weather">{{ weather.main.temp }}°C. {{ city }}</p>
+    <p v-if="weather">{{ weather.main.temp }}°C {{ city }}</p>
     <p v-else>Loading weather data for {{ city }}...</p>
   </div>
 </template>
@@ -127,7 +127,7 @@ const weather  = await $fetch(
 
 A zatim jednostavno dodajte komponentu u Markdown fajl i prosledite naziv željenog mesta:
 
-Važno: Vue komponente u Markdown fajlovima ne smeju koristiti auto-close tagove. Iako auto-close tagovi poput:
+Vue komponente u Markdown fajlovima ne smeju koristiti auto-close tagove. Iako auto-close tagovi poput:
 
 ```vue
 <WeatherComponent city="Belgrade" />
@@ -143,19 +143,55 @@ Zato je potrebno da komponente uvek imaju eksplicitno zatvaranje:
 
 Ovo osigurava da se kompletan sadržaj, uključujući komponente i sav tekst koji sledi, pravilno prikaže.
 
+Međutim, **Nuxt Content** modul **nudi još jednu mogućnost**, a to je da se koristi posebna **Markdown sintaksa** za **ugrađivanje komponenti u sadržaj**. Na primer, umesto standardnog načina umetanja Vue komponenti, možete koristiti ugrađeni način dodavanja komponenata koristeći MDC (Markdown Components) sintaksu, koja omogućava jednostavnije ubacivanje komponenata u sadržaj:
+
+```md
+::WeatherComponent{city="Belgrade"}
+::
+```
+
+Ovaj pristup olakšava rad sa dinamičkim podacima unutar statičkog Markdown sadržaja i omogućava bolju integraciju Vue komponenti bez problema sa renderovanjem ostatka sadržaja.
+
+Na koji sve način se mogu dodavati komponente pomoću MDC sintakse pogledajte na linku:
+
+https://content.nuxt.com/usage/markdown#vue-components
+
+## Primer Markdown Fajla
+
+```md
+  ---
+  title: "Korišćenje $doc varijabli i Vue komponenti"
+  description: "Kratki vodič o integraciji $doc varijabli i komponenti u Markdown-u."
+  date: "2024-10-21"
+  ---
+
+  # {{ $doc.title }}
+
+  Možete koristiti metapodatke kao što su **Naslov**: {{ $doc.title }} ili **Datum**: {{ $doc.date }} bilo gde u sadržaju.
+
+  Za dodavanje Vue komponenti, možete koristiti:
+
+  ::WeatherComponent{city="Belgrade"}
+  ::
+
+  Dodatni elementi poput **listi**, **citatnih blokova**, i **kod blokova** su potpuno podržani.
+
+```
+
+## Prikazivanje vremenskih podataka u Markdown-u
+
+Evo trenutnog vremena u **Beogradu**:
+
+::weatherComponent{city="Belgrade"}
+::
+
 ### Objašnjenje:
 
 - **Dinamičke komponente**: Uključili smo Vue komponentu za preuzimanje podataka o vremenu.
 - **API integracija**: Prikazano je kako dohvatiti podatke sa javnog API-ja (OpenWeather) i prikazati ih unutar Markdown fajla.
 - **Isticanje koda**: Prikazano je kako formatirati isečke koda sa isticanjem sintakse u Markdown-u.
 
-Ovaj primer vam može pomoći da strukturirate naprednije blog postove koristeći **Nuxt 3** i **`@nuxt/content`**. Javite ako vam treba dodatno objašnjenje ili pomoć!
-
-## Prikazivanje vremenskih podataka u Markdown-u
-
-Evo trenutnog vremena u **Beogradu**:
-
-<WeatherComponent city="Belgrade"></WeatherComponent>
+Ovaj primer vam može pomoći da strukturirate naprednije blog postove koristeći **Nuxt 3** i **`@nuxt/content`**.
 
 ---
 Aleksandar Pejković  
