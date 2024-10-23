@@ -2,6 +2,7 @@
   <LayoutHeader />
   <main>
     <slot />
+    <BackToTop />
   </main>
   <LayoutFooter />
 </template>
