@@ -43,5 +43,11 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/css/main.scss'],
   devtools: { enabled: true },
-  modules: ['@nuxt/content', '@nuxtjs/i18n', '@nuxt/image', '@vueuse/nuxt',],
+  gtag: {
+    id: 'G-NV49GNEK3F',
+    config: {
+      anonymize_ip: true, // Anonymize IP addresses if needed
+    },
+  },
+  modules: ['@nuxt/content', '@nuxtjs/i18n', '@nuxt/image', '@vueuse/nuxt', 'nuxt-gtag'],
 })
