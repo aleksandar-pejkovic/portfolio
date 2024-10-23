@@ -86,6 +86,10 @@ a {
     text-decoration: none;
 }
 
+code {
+    white-space: pre-wrap; /* Allow wrapping for long lines */
+}
+
 /* @media query za mobilne uređaje */
 @media (max-width: 768px) {
 
