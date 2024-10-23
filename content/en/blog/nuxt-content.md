@@ -6,7 +6,7 @@ tags: ["Nuxt 3", "Vue 3", "API", "Components", "Markdown", "@nuxt/content"]
 image: "/img/blog/nuxt-content/cover.png"
 ---
 
-# Nuxt 3 and @nuxt/content
+# {{ $doc.title }}
 
 <img src="/img/blog/nuxt-content/cover.png" alt="nuxt-content cover" class="content-project-image">
 

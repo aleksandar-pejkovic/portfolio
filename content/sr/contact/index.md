@@ -3,7 +3,7 @@ title: "Kontakt"
 description: "Kontaktirajte Aleksandra Pejkovića - računovođu i budućeg web developera."
 ---
 
-# Kontakt
+# {{ $doc.title }}
 
 Ukoliko imate pitanja, predloge ili želite da sarađujete sa mnom, slobodno me kontaktirajte. Rado ću odgovoriti na sve vaše upite.
 

@@ -6,7 +6,7 @@ tags: ["Nuxt 3", "Vue 3", "i18n", "Multilingual", "Markdown", "@nuxtjs/i18n"]
 image: "/img/blog/nuxt-i18n/cover.png"
 ---
 
-# Multilingual Website with Nuxt 3 and @nuxtjs/i18n
+# {{ $doc.title }}
 
 <img src="/img/blog/nuxt-i18n/cover.png" alt="nuxt-i18n cover" class="content-project-image">
 

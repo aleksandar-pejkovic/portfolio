@@ -3,7 +3,7 @@ title: "O meni"
 description: "Saznajte više o Aleksandru Pejkoviću - računovođi i budućem web developeru."
 ---
 
-# O meni
+# {{ $doc.title }}
 
 Zovem se Aleksandar Pejković i trenutno radim kao računovođa u osnovnoj školi, ali moj cilj je da se razvijem kao **web developer**. Stekao sam zvanje diplomiranog ekonomiste. Osim toga, završio sam **IT Akademiju** i više kurseva programiranja.
 

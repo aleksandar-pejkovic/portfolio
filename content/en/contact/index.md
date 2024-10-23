@@ -3,7 +3,7 @@ title: "Contact"
 description: "Contact Aleksandar Pejković - accountant and aspiring web developer."
 ---
 
-# Contact
+# {{ $doc.title }}
 
 If you have any questions, suggestions, or would like to collaborate with me, feel free to reach out. I’ll be happy to respond to all your inquiries.
 

@@ -3,7 +3,7 @@ title: "About Me"
 description: "Learn more about Aleksandar Pejković - accountant and aspiring web developer."
 ---
 
-# About Me
+# {{ $doc.title }}
 
 My name is Aleksandar Pejković and I currently work as an accountant in a primary school, but my goal is to develop as a **web developer**. I obtained the title of graduate economist. Additionally, I completed the **IT Academy** and several programming courses.
 
