@@ -25,19 +25,15 @@ const scrollToTop = () => {
   bottom: 20px;
   right: 20px;
   padding: 10px 15px;
-  background-color: var(--accent-color);
-  /* Crveno dugme */
-  color: var(--primary-color);
-  /* Belo slovo */
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0 2px 10px var(--secondary-color);
-  transition: opacity 0.3s ease;
+  box-shadow: 0 2px 10px var(--accent-color-dark);
+  transition: all 0.3s ease;
 }
 
 .back-to-top:hover {
-  background-color: var(--accent-color-dark);
+  transform: scale(1.1);
 }
 
 .back-to-top:active {
