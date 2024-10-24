@@ -9,10 +9,10 @@ If you have any questions, suggestions, or would like to collaborate with me, fe
 
 ## Contact Information
 
-- **Email**: <a href="mailto:aleksandarpejkovic@hotmail.com" target="_blank">aleksandarpejkovic@hotmail.com</a>
-- **LinkedIn**: <a href="https://www.linkedin.com/in/aleksandar-pejkovic" target="_blank">Aleksandar Pejković</a>
-- **GitHub**: <a href="https://github.com/aleksandar-pejkovic" target="_blank">Aleksandar Pejković</a>
-- **Google Drive**: <a href="https://drive.google.com/file/d/1fsLBPACir7TwxX9ZzbELz9oQEm0VKy-M/view?usp=drive_link" target="_blank">CV</a>
+- **Email**: [aleksandarpejkovic@hotmail.com](mailto:aleksandarpejkovic@hotmail.com){target="_blank"}
+- **LinkedIn**: [Aleksandar Pejković](https://www.linkedin.com/in/aleksandar-pejkovic){target="_blank"}
+- **GitHub**: [Aleksandar Pejković](https://github.com/aleksandar-pejkovic){target="_blank"}
+- **Google Drive**: [CV](https://drive.google.com/file/d/1fsLBPACir7TwxX9ZzbELz9oQEm0VKy-M/view?usp=drive_link){target="_blank"}
 
 ## Let's Work Together
 

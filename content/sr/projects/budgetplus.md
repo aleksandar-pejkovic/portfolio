@@ -6,13 +6,13 @@ image: "/img/projects/budgetplus/landing-page.png"
 
 # BudgetPlus
 
-<img src="/img/projects/budgetplus/landing-page.png" alt="budget plus landing page" class="content-project-image">
+![budget plus landing page](/img/projects/budgetplus/landing-page.png){.content-project-image}
 
 **BudgetPlus** je sveobuhvatna softverska aplikacija namenjena institucijama koje upravljaju budžetima, poput škola, javnih institucija i nevladinih organizacija. Sistem omogućava automatizaciju finansijskih tokova, kreiranje izveštaja, budžetiranje i analizu finansijskih performansi, čime se značajno smanjuje administrativni teret za korisnike.
 
-- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/budget-plus" target="_blank">BudgetPlus (Srping Boot)</a> (private, samo uz odobren pristup)
+- **GitHub**:  [BudgetPlus (Srping Boot)](https://github.com/aleksandar-pejkovic/budget-plus){target="_blank"} (private, invitation required)
 
-- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/budget-plus-client" target="_blank">BudgetPlus client (Nuxt.js)</a> (private, samo uz odobren pristup)
+- **GitHub**: [BudgetPlus client (Nuxt.js)](https://github.com/aleksandar-pejkovic/budget-plus-client){target="_blank"} (private, invitation required)
 
 ## Arhitektura sistema
 

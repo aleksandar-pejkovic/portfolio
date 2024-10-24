@@ -6,13 +6,13 @@ image: "/img/projects/budgetplus/landing-page.png"
 
 # BudgetPlus
 
-<img src="/img/projects/budgetplus/landing-page.png" alt="budget plus landing page" class="content-project-image">
+![budget plus landing page](/img/projects/budgetplus/landing-page.png){.content-project-image}
 
 **BudgetPlus** is a comprehensive software application designed for institutions that manage budgets, such as schools, public institutions, and NGOs. The system enables automation of financial flows, report generation, budgeting, and analysis of financial performance, significantly reducing the administrative burden for users.
 
-- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/budget-plus" target="_blank">BudgetPlus (Srping Boot)</a> (private, invitation required)
+- **GitHub**:  [BudgetPlus (Srping Boot)](https://github.com/aleksandar-pejkovic/budget-plus){target="_blank"} (private, invitation required)
 
-- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/budget-plus-client" target="_blank">BudgetPlus client (Nuxt.js)</a> (private, invitation required)
+- **GitHub**: [BudgetPlus client (Nuxt.js)](https://github.com/aleksandar-pejkovic/budget-plus-client){target="_blank"} (private, invitation required)
 
 ## System Architecture
 

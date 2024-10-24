@@ -8,7 +8,7 @@ image: "/img/blog/nuxt-i18n/cover.png"
 
 # {{ $doc.title }}
 
-<img src="/img/blog/nuxt-i18n/cover.png" alt="nuxt-i18n cover" class="content-project-image">
+![nuxt-i18n cover](/img/blog/nuxt-i18n/cover.png){.content-project-image}
 
 U ovom blog postu ćemo istražiti kako da postavite višejezični sadržaj u **Nuxt 3** koristeći **@nuxtjs/i18n** modul. Konfigurišaćemo sadržaj tako da se koristi iz jezički specifičnih foldera za **srpski** i **engleski** jezik, i prikazaćemo kako Nuxt automatski detektuje i primenjuje jezik na osnovu postavki pregledača korisnika.
 

@@ -6,13 +6,13 @@ image: "/img/projects/reliabill/landing-page.jpeg"
 
 # ReliaBill
 
-<img src="/img/projects/reliabill/landing-page.jpeg" alt="reliabill cover" class="content-project-image">
+![reliabill landing page](/img/projects/reliabill/landing-page.jpeg){.content-project-image}
 
 **ReliaBill** is a comprehensive invoicing application developed to simplify and automate the process of issuing invoices for small and medium-sized businesses. The application allows users to quickly and easily create, manage, and track invoices, with additional functionalities such as reporting, client management, and sending invoices via email.
 
-- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/relia-bill" target="_blank">ReliaBill (Srping Boot)</a>
+- **GitHub**:  [ReliaBill (Srping Boot)](https://github.com/aleksandar-pejkovic/relia-bill){target="_blank"}
 
-- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/relia-vue" target="_blank">ReliaVue (Vue.js)</a>
+- **GitHub**: [ReliaVue (Vue.js)](https://github.com/aleksandar-pejkovic/relia-vue){target="_blank"}
 
 ## System Architecture
 

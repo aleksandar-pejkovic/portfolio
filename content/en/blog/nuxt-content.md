@@ -8,13 +8,13 @@ image: "/img/blog/nuxt-content/cover.png"
 
 # {{ $doc.title }}
 
-<img src="/img/blog/nuxt-content/cover.png" alt="nuxt-content cover" class="content-project-image">
+![nuxt-content cover](/img/blog/nuxt-content/cover.png){.content-project-image}
 
 Welcome to your first blog post! In this guide, we'll explore how to create a blog post using **Nuxt 3** and the **@nuxt/content** module. We'll include code examples and images to make the post more engaging.
 
 You can find everything related to Nuxt content on the official website:
 
-https://content.nuxt.com/
+[Nuxt Content](https://content.nuxt.com/)
 
 ## Prerequisites
 
@@ -150,7 +150,7 @@ This approach simplifies working with dynamic data within static Markdown conten
 
 For more information on embedding components with MDC syntax, check out the official documentation:
 
-https://content.nuxt.com/usage/markdown#vue-components
+[Nuxt Content Vue Component Documentation](https://content.nuxt.com/usage/markdown#vue-components){target="_blank"}
 
 ## Sample Markdown File
 

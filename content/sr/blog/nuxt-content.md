@@ -8,13 +8,13 @@ image: "/img/blog/nuxt-content/cover.png"
 
 # {{ $doc.title }}
 
-<img src="/img/blog/nuxt-content/cover.png" alt="nuxt-content cover" class="content-project-image">
+![nuxt-content cover](/img/blog/nuxt-content/cover.png){.content-project-image}
 
 Dobrodošli u vaš prvi blog post! U ovom vodiču ćemo istražiti kako da kreirate blog post koristeći **Nuxt 3** i **@nuxt/content** modul. Uključićemo primere koda i slike kako bi post bio zanimljiviji.
 
 Sve vezano za Nuxt content možete pronaći na zvaničnom sajtu:
 
-https://content.nuxt.com/
+[Nuxt Content](https://content.nuxt.com/)
 
 ## Preduslovi
 
@@ -154,7 +154,7 @@ Ovaj pristup olakšava rad sa dinamičkim podacima unutar statičkog Markdown sa
 
 Na koji sve način se mogu dodavati komponente pomoću MDC sintakse pogledajte na linku:
 
-https://content.nuxt.com/usage/markdown#vue-components
+[Nuxt Content Vue Component Documentation](https://content.nuxt.com/usage/markdown#vue-components)
 
 ## Primer Markdown Fajla
 

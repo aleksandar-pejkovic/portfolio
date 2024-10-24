@@ -6,13 +6,13 @@ image: "/img/projects/reliabill/landing-page.jpeg"
 
 # ReliaBill
 
-<img src="/img/projects/reliabill/landing-page.jpeg" alt="reliabill landing page" class="content-project-image">
+![reliabill landing page](/img/projects/reliabill/landing-page.jpeg){.content-project-image}
 
 **ReliaBill** je sveobuhvatna aplikacija za fakturisanje koja je razvijena kako bi olakšala i automatizovala proces izdavanja računa za mala i srednja preduzeća. Aplikacija omogućava korisnicima brzo i lako kreiranje, upravljanje i praćenje računa, uz dodatne funkcionalnosti poput izveštavanja, upravljanja klijentima i slanja računa putem email-a.
 
-- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/relia-bill" target="_blank">ReliaBill (Srping Boot)</a>
+- **GitHub**:  [ReliaBill (Srping Boot)](https://github.com/aleksandar-pejkovic/relia-bill){target="_blank"}
 
-- **GitHub**: <a href="https://github.com/aleksandar-pejkovic/relia-vue" target="_blank">ReliaVue (Vue.js)</a>
+- **GitHub**: [ReliaVue (Vue.js)](https://github.com/aleksandar-pejkovic/relia-vue){target="_blank"}
 
 ## Arhitektura sistema
 
