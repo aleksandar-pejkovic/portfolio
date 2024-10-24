@@ -10,7 +10,7 @@ image: "/img/blog/nuxt-i18n/cover.png"
 
 ![nuxt-i18n cover](/img/blog/nuxt-i18n/cover.png){.content-project-image}
 
-U ovom blog postu ćemo istražiti kako da postavite višejezični sadržaj u **Nuxt 3** koristeći **@nuxtjs/i18n** modul. Konfigurišaćemo sadržaj tako da se koristi iz jezički specifičnih foldera za **srpski** i **engleski** jezik, i prikazaćemo kako Nuxt automatski detektuje i primenjuje jezik na osnovu postavki pregledača korisnika.
+U ovom blog postu ćemo istražiti kako da postavite višejezični sadržaj u **Nuxt 3** koristeći **@nuxtjs/i18n** modul. Konfigurišaćemo sadržaj tako da se koristi iz jezički specifičnih foldera za **srpski** i **engleski** jezik i prikazaćemo kako Nuxt automatski detektuje i primenjuje jezik na osnovu postavki pregledača korisnika.
 
 Zvaničnu dokumentaciju za **@nuxtjs/i18n** modul možete pronaći na sledećem linku:
 

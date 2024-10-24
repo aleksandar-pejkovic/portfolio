@@ -7,7 +7,7 @@ description: "Saznajte više o Aleksandru Pejkoviću - računovođi i budućem w
 
 Zovem se Aleksandar Pejković i trenutno radim kao računovođa u osnovnoj školi, ali moj cilj je da se razvijem kao **web developer**. Stekao sam zvanje diplomiranog ekonomiste. Osim toga, završio sam **IT Akademiju** i više kurseva programiranja.
 
-Kroz rad i praksu u firmama kao što su **Endava** i **Epam**, stekao sam dragoceno iskustvo koje mi je omogućilo da proširim svoje znanje o tehnologijama kao što su **Java**, **Spring Boot**, i **Nuxt.js**. Težim da postanem ekspert za backend programiranje, iako takođe radim na usavršavanju u frontend tehnologijama kao što su **Vue.js** i **Nuxt.js**.
+Kroz rad i praksu u firmama kao što su **Endava** i **Epam**, stekao sam dragoceno iskustvo koje mi je omogućilo da proširim svoje znanje o tehnologijama kao što su **Java**, **Spring Boot** i **Nuxt.js**. Težim da postanem ekspert za backend programiranje iako takođe radim na usavršavanju u frontend tehnologijama kao što su **Vue.js** i **Nuxt.js**.
 
 ## Moji interesi
 
@@ -17,7 +17,7 @@ Ljubitelj sam prirode i često uživam u biciklizmu i šetnjama po lokalnoj plan
 
 ## Projekti
 
-Jedan od mojih najvažnijih projekata je aplikacija **BudgetPlus**, koju razvijam sa ciljem da pojednostavim svakodnevne računovodstvene aktivnosti za kolege u školi. Takođe, radim na aplikaciji za fakturisanje pod nazivom **ReliaBill**, i istražujem mogućnosti kako da proširim njenu primenu za male firme i agencije.
+Jedan od mojih najvažnijih projekata je aplikacija **BudgetPlus**, koju razvijam sa ciljem da pojednostavim svakodnevne računovodstvene aktivnosti za kolege u školi. Takođe, radim na aplikaciji za fakturisanje pod nazivom **ReliaBill** i istražujem mogućnosti kako da proširim njenu primenu za male firme i agencije.
 
 ## Šta planiram dalje?
 

@@ -3,7 +3,7 @@
   <div class="cta">
     <p>{{ $t('workTogetherDescription') }}</p>
     <NuxtLink :to="localePath('/contact')" class="button cta-btn">{{ $t('contactMe') }}
-</NuxtLink>
+    </NuxtLink>
   </div>
 </template>
 

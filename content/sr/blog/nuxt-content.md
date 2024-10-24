@@ -174,7 +174,7 @@ Na koji sve način se mogu dodavati komponente pomoću MDC sintakse pogledajte n
   ::WeatherComponent{city="Belgrade"}
   ::
 
-  Dodatni elementi poput **listi**, **citatnih blokova**, i **kod blokova** su potpuno podržani.
+  Dodatni elementi poput **listi**, **citatnih blokova** i **kod blokova** su potpuno podržani.
 
 ```
 
