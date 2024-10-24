@@ -22,6 +22,7 @@ const scrollToTop = () => {
 /* Stilizovanje za Back to Top dugme */
 .back-to-top {
   position: fixed;
+  z-index: 999;
   bottom: 20px;
   right: 20px;
   padding: 10px 15px;
