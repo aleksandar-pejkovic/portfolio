@@ -16,7 +16,8 @@ export default defineNuxtConfig({
         { property: 'og:url', content: 'https://aleksandarpejkovic.com' },
         { property: 'og:type', content: 'website' }
       ]
-    }
+    },
+    pageTransition: { name: 'fade', mode: 'out-in' }
   },
   compatibilityDate: '2024-04-03',
   content: {
