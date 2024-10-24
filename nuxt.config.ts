@@ -3,6 +3,21 @@ export default defineNuxtConfig({
   alias: {
     assets: '/<rootDir>/assets',
   },
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon-blue.svg' }
+      ],
+      meta: [
+        { name: 'description', content: 'Aleksandar Pejković, a dedicated web developer focused on creating functional, reliable, and scalable digital solutions. Combining expertise in backend and frontend technologies, Aleksandar is passionate about building intuitive web applications that drive business success.' },
+        { property: 'og:title', content: 'Aleksandar Pejković - Web Developer' },
+        { property: 'og:description', content: 'Aleksandar Pejković, a dedicated web developer focused on creating functional, reliable, and scalable digital solutions. Combining expertise in backend and frontend technologies, Aleksandar is passionate about building intuitive web applications that drive business success.' },
+        { property: 'og:image', content: '/img/main/cover.png' },
+        { property: 'og:url', content: 'https://aleksandarpejkovic.com' },
+        { property: 'og:type', content: 'website' }
+      ]
+    }
+  },
   compatibilityDate: '2024-04-03',
   content: {
     highlight: {
