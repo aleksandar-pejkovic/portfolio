@@ -14,7 +14,7 @@ U ovom blog postu ćemo istražiti kako da postavite višejezični sadržaj u **
 
 Zvaničnu dokumentaciju za **@nuxtjs/i18n** modul možete pronaći na sledećem linku:
 
-https://nuxt.com/modules/i18n
+[Nuxt i18n](https://nuxt.com/modules/i18n){target="_blank"}
 
 ## Preduslovi
 

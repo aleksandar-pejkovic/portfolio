@@ -14,7 +14,7 @@ In this blog post, we’ll explore how to set up multilingual content in **Nuxt 
 
 You can find the official documentation for the **@nuxtjs/i18n** module at the following link:
 
-https://nuxt.com/modules/i18n
+[Nuxt i18n](https://nuxt.com/modules/i18n){target="_blank"}
 
 ## Prerequisites
 

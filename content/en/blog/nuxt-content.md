@@ -14,7 +14,7 @@ Welcome to your first blog post! In this guide, we'll explore how to create a bl
 
 You can find everything related to Nuxt content on the official website:
 
-[Nuxt Content](https://content.nuxt.com/)
+[Nuxt Content](https://content.nuxt.com/){target="_blank"}
 
 ## Prerequisites
 

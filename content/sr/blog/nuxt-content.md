@@ -14,7 +14,7 @@ Dobrodošli u vaš prvi blog post! U ovom vodiču ćemo istražiti kako da kreir
 
 Sve vezano za Nuxt content možete pronaći na zvaničnom sajtu:
 
-[Nuxt Content](https://content.nuxt.com/)
+[Nuxt Content](https://content.nuxt.com/){target="_blank"}
 
 ## Preduslovi
 
@@ -154,7 +154,7 @@ Ovaj pristup olakšava rad sa dinamičkim podacima unutar statičkog Markdown sa
 
 Na koji sve način se mogu dodavati komponente pomoću MDC sintakse pogledajte na linku:
 
-[Nuxt Content Vue Component Documentation](https://content.nuxt.com/usage/markdown#vue-components)
+[Nuxt Content Vue Component Documentation](https://content.nuxt.com/usage/markdown#vue-components){target="_blank"}
 
 ## Primer Markdown Fajla
 
