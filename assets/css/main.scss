@@ -26,6 +26,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .page {
@@ -86,7 +87,10 @@ a {
 }
 
 code {
-    white-space: pre-wrap; /* Allow wrapping for long lines */
+    white-space: pre-wrap;
+    /* Allow wrapping for long lines */
+    word-wrap: break-word;
+    /* Allow wrapping for long words */
 }
 
 /* @media query za mobilne uređaje */
