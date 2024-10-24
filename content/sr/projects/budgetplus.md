@@ -60,7 +60,7 @@ image: "/img/projects/budgetplus/landing-page.png"
 
 3. **Pregled i unos transakcija**:
    - **Interaktivni obrasci za unos**: Forma za unos transakcija omogućava korisnicima da dodaju, uređuju i brišu transakcije u jednostavnom interfejsu.
-   - **Filtar i pretraga**: Svi podaci su pretraživi, a korisnici mogu koristiti filtere za lakši pregled transakcija prema datumu, kategoriji, valuti, i slično.
+   - **Filtar i pretraga**: Svi podaci su pretraživi, a korisnici mogu koristiti filtere za lakši pregled transakcija prema datumu, kategoriji, valuti i slično.
 <br><br/>
 
 4. **Analitički alati**:

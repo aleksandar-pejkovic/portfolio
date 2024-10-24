@@ -8,11 +8,11 @@ image: "/img/projects/csv-exporter/code.jpg"
 
 ![csv exporter code sample](/img/projects/csv-exporter/code.jpg){.content-project-image}
 
-Ovaj projekat je razvijen kao test aplikacija sa ciljem integracije različitih sistema koristeći **Apache Camel** i **Spring Boot** za backend, i **Angular** za frontend deo aplikacije. **Apache Camel** je korišćen za procesiranje i integraciju poruka između sistema, dok je **Spring Boot** omogućio stabilnu i skalabilnu platformu za backend operacije. **Angular** je korišćen za razvoj modernog web korisničkog interfejsa koji omogućava interakciju sa podacima.
+Ovaj projekat je razvijen kao test aplikacija sa ciljem integracije različitih sistema koristeći **Apache Camel** i **Spring Boot** za backend i **Angular** za frontend deo aplikacije. **Apache Camel** je korišćen za procesiranje i integraciju poruka između sistema, dok je **Spring Boot** omogućio stabilnu i skalabilnu platformu za backend operacije. **Angular** je korišćen za razvoj modernog web korisničkog interfejsa koji omogućava interakciju sa podacima.
 
 - **GitHub**:  [Navigator exporter (Apache Camel + Spring Boot)](https://github.com/aleksandar-pejkovic/navigator-data-exporter){target="_blank"}
 
-- **GitHub**: [Navogator client (Angular.js)](https://github.com/aleksandar-pejkovic/navigator-data-client){target="_blank"}
+- **GitHub**: [Navigator client (Angular.js)](https://github.com/aleksandar-pejkovic/navigator-data-client){target="_blank"}
 
 ## Arhitektura sistema
 

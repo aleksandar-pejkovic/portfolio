@@ -12,7 +12,7 @@ This project was developed as a test application aimed at integrating various sy
 
 - **GitHub**:  [Navigator exporter (Apache Camel + Spring Boot)](https://github.com/aleksandar-pejkovic/navigator-data-exporter){target="_blank"}
 
-- **GitHub**: [Navogator client (Angular.js)](https://github.com/aleksandar-pejkovic/navigator-data-client){target="_blank"}
+- **GitHub**: [Navigator client (Angular.js)](https://github.com/aleksandar-pejkovic/navigator-data-client){target="_blank"}
 
 ## System Architecture
 
