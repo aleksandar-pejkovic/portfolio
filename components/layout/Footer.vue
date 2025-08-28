@@ -33,9 +33,10 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #1e1e2f;
-  color: white;
+  background: linear-gradient(135deg, var(--accent-color), var(--accent-color-dark));
+  color: var(--primary-color);
   padding: 2rem 0;
+  box-shadow: 0 -4px 0 var(--accent-color-dark);
 }
 
 .footer-content p {
@@ -57,14 +58,14 @@ footer {
 }
 
 .social-links a {
-  color: white;
+  color: var(--primary-color);
   text-decoration: none;
   font-size: 1.1rem;
   transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-  color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 .pulsating {

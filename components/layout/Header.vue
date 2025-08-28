@@ -48,7 +48,8 @@ onClickOutside(target, () => {
 <style scoped>
 /* Header styling */
 header {
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: var(--primary-color);
+  box-shadow: 0 4px 0 var(--accent-color), 0 8px 16px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 999;
@@ -66,17 +67,18 @@ nav {
 }
 
 nav a {
-  color: black;
+  color: var(--secondary-color);
   text-decoration: none;
   font-weight: bolder;
   padding: 0.5rem 1rem;
   border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 /* Hover and focus effects for navigation links */
 nav a:hover {
+  color: var(--accent-color);
   border-bottom: 2px solid var(--accent-color);
-  transition: border-bottom 0.5s ease;
 }
 
 /* Navigation links styling */

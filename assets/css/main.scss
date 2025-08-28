@@ -27,6 +27,8 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     -webkit-tap-highlight-color: transparent;
+    background-color: #f8f9fa;
+    color: var(--secondary-color);
 }
 
 .page {
@@ -59,12 +61,14 @@ li {
     font-weight: bold;
     border-radius: 30px;
     text-decoration: none;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 4px 4px 0 var(--accent-color-dark);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .button:hover {
     background-color: var(--accent-color-dark);
-    transform: scale(1.1);
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 var(--accent-color-dark);
 }
 
 .border-shadow {
