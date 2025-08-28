@@ -18,7 +18,7 @@
             target="_blank" rel="noopener noreferrer">CV</a>
         </li>
       </ul>
-      <p class="pulsating">Built with 🤍 using Nuxt 3</p>
+      <p class="pulsating">Built with <span class="heart">❤️</span> using Nuxt 3</p>
     </div>
   </footer>
 </template>
@@ -35,22 +35,22 @@ footer {
   text-align: center;
   background: linear-gradient(135deg, var(--accent-color), var(--accent-color-dark));
   color: var(--primary-color);
-  padding: 2rem 0;
-  box-shadow: 0 -4px 0 var(--accent-color-dark);
+  padding: 1.5rem 0;
+  box-shadow: 0 -2px 0 var(--accent-color-dark);
+  font-size: 0.875rem;
 }
 
 .footer-content p {
-  margin: 0.5rem 0;
-  font-size: 1rem;
+  margin: 0.25rem 0;
 }
 
 .social-links {
   list-style: none;
   padding: 0;
-  margin: 1rem 0;
+  margin: 0.75rem 0;
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .social-links li {
@@ -60,7 +60,7 @@ footer {
 .social-links a {
   color: var(--primary-color);
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   transition: color 0.3s ease;
 }
 
@@ -73,7 +73,11 @@ footer {
 }
 
 .footer-content p:last-child {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #999;
+}
+
+.heart {
+  color: #ff4d4f;
 }
 </style>
