@@ -20,9 +20,10 @@ const props = defineProps({
 
 <style scoped>
 .card {
-  background-color: white;
+  background-color: var(--primary-color);
+  border: 2px solid var(--accent-color);
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 0 var(--accent-color);
   padding: 1.5rem;
   margin: 1rem 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -31,7 +32,7 @@ const props = defineProps({
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 8px 8px 0 var(--accent-color-dark);
 }
 
 .card-link {
@@ -47,7 +48,12 @@ const props = defineProps({
 h3 {
   margin: 0 0 0.5rem;
   font-size: 1.5rem;
-  color: #333;
+  color: var(--accent-color);
+  transition: color 0.3s ease;
+}
+
+.card:hover h3 {
+  color: var(--accent-color-dark);
 }
 
 p {
