@@ -29,7 +29,6 @@ const scrollToTop = () => {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0 2px 10px var(--accent-color-dark);
   transition: all 0.3s ease;
 }
 
