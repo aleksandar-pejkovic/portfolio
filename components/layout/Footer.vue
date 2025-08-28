@@ -18,7 +18,7 @@
             target="_blank" rel="noopener noreferrer">CV</a>
         </li>
       </ul>
-      <p class="pulsating">Built with ❤️ using Nuxt 3</p>
+      <p class="pulsating">Built with 🤍 using Nuxt 3</p>
     </div>
   </footer>
 </template>
